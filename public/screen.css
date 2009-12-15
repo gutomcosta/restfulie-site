@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* CSS Document */
+*{margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif;}
+
+body{
+	background-color:#660000; 
+	text-align:center;}
+
+/*header structure*/
+#headerWrap{
+	background-image:url(images/bgHeader.png);
+	background-position:left top;
+	background-repeat:repeat;
+	background-color:#0CF;
+	display:block; 
+	width:100%;
+	height:100px;
+	position:relative;
+ 	overflow:hidden;}
+	
+	#headerContent{
+		width:918px;
+		display:block;
+		height:100%;
+		position:relative;
+		margin:0px auto;
+	   	overflow:hidden;}
+		
+		#logoRestfulie {
+			display:block;
+			width:336px;
+			height:88px;
+			background-image:url(images/restfulieSprites-trans.png);
+			background-position:-6px 0px;
+			background-repeat:no-repeat;
+			position:absolute;
+			left:0px;
+			top:0px;}
+			
+			#logoRestfulie span {display:none;}
+
+/*menus like langbar and menuelements menu.css*/
+
+/*banner css configuration*/
+#bannerWrap{
+	background-image:url(images/bgHeader.png);
+	background-position:0 -158px;
+	background-repeat:repeat;
+	display:block; 
+	width:100%;
+	height:302px;
+	position:relative;}	
+
+	#banner{
+		width:918px;	
+		height:auto;
+		margin:0px auto;	
+		display:block;	
+		height:auto;	
+		text-align:center;}
+		
+		#banner div {display:block; float:left; position:relative; height:auto; width:305px; text-align:center; margin-top:30px;}
+		
+		 #banner div h3{
+			font-size:30px;
+   			margin-bottom:10px;
+			color:#fff;
+   			display:block;
+      		width:auto;
+        	height:auto;
+			text-transform:uppercase;}
+				
+		#banner div p{color:#FFF; padding-right:10px; text-transform:uppercase; font-size:13px;}
+        
+        #banner div#smallBox{border-left:1px solid #FFF; border-right:1px solid #FFF;}
+        
+        #banner div#hypermediaBox h3{background-image:url(images/restfulieSprites-trans.png); background-position:0px -520px; padding-top:100px; margin-top:30px;  background-repeat:no-repeat;}
+        #banner div#smallBox h3{background-image:url(images/restfulieSprites-trans.png); background-position:-242px -487px; padding-top:130px;  background-repeat:no-repeat;}
+        #banner div#simpleBox h3{background-image:url(images/restfulieSprites-trans.png); background-position:-510px -500px; padding-top:110px; margin-top:25px;  background-repeat:no-repeat;}        
+        
+/*content css*/
+#contentWrap{
+	display:block;
+	width:100%;
+	height:auto;
+	position:relative;
+	overflow:auto;
+	background-color:#FFF;
+	background-image:url(images/bgHeader.png);
+	background-position:0px -461px;
+	background-repeat:repeat-x;}
+	
+	/*css home*/
+	#contentHome{ width:918px;	margin:0px auto; display:block;	height:auto; text-align:left; position:relative;}		
+
+		
+		/*quickpretending*/
+		#contentHome #quickPretending {	width:450px; display:block; float:left;}
+			
+		#contentHome #quickPretending h2{ color:#660000; font-size:24px; display:block; width:475px; text-transform:uppercase; margin-top:20px; margin-bottom:30px; font-weight:bold; float:left;}	
+        
+        /*restfulieBenefits*/
+        #contentHome #restBenefits{
+         	background-image:url(images/restfulieSprites-trans.png);
+            background-repeat:no-repeat;
+        	background-position:-580px 0px;
+         	width:450px;
+          	display:block;
+          	float:left;
+           height:380px;
+           overflow:hidden;
+           position:relative;}
+           
+           #restBenefits h3{
+            display:block;
+            width:auto;
+            height:auto;
+            margin:25px 0px 30px 70px;
+            text-transform:uppercase;
+            color:#FFF;}
+            
+            #restBenefits ol{margin-left:55px; margin-right:15px; display:block; width:auto; height:auto;}
+            	#restBenefits ol li{display:block; width:auto; height:auto; padding:10px; margin:auto; list-style-type:decimal;}
+		
+		/*video box*/
+		#contentHome #boxvideo {
+			background-image:url(images/restfulieSprites-trans.png); 
+			background-repeat:no-repeat; 
+			background-position: -7px -111px; 
+			margin-top:40px;
+			width:415px; 
+			height:315px; 
+			padding-top:12px;
+			padding-left:12px;			
+			float:right;}		
+			#contentHome #boxvideo object {display:block; background-color:#0CF;}
+		
+		/*twitter box*/
+		#contentHome #twitterBox {float:right; width:415px; display:block; margin-top:15px; margin-bottom:25px;}	
+			#contentHome #twitterBox h3{margin-bottom:20px; text-transform:uppercase;}
+				#contentHome #twitterBox h3 a{font-size:18px; color:#660000; text-decoration:none;}
+					#contentHome #twitterBox h3 a:hover{color:#F00;}
+			
+			#contentHome #twitterBox ul{list-style-type:none;}
+				#contentHome #twitterBox ul li {
+					background-image:url(images/restfulieSprites-trans.png); 
+					background-position:-1008px -463px; 
+					background-repeat:no-repeat; 			
+					padding-left:60px;
+					display:block;
+					height:70px;
+					float:left;
+					text-transform:uppercase;}			
+					#contentHome #twitterBox ul li p {font-size:11px; color:#353535; font-weight:bold;}
+						#contentHome #twitterBox ul li p a{color:#333399;}
+					#contentHome #twitterBox ul li p span {font-weight:normal;}
+
+	/*documentacao*/
+    a#documentacaoBtn{background-image:url(images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move;}
+    a#documentacaoBtn span{display:none;}
+
+	/*css documentacao*/	
+	#contentDocumentacao{ width:100%; margin:0px auto; display:block; height:auto; text-align:left; position:relative;}
+		#contentDocumentacao h2{ color:#2a2948;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentDocumentacao h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
+		
+		#textoCapitulo{width:auto; margin-right:10px; margin-left:360px; display:block; text-align:justify; margin-bottom:40px;}
+			#textoCapitulo h2 {font-size:30px; font-weight:bold; margin:0px 0px 10px 0px; padding:0px;}
+			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#150D6A;}
+			#textoCapitulo p {font-size:12px; font-weight:normal;}
+			#textoCapitulo pre {font-size:11px; color:#625696; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}
+		
+	
+/*footer css*/
+#footerWrap{
+	display:block; 
+	width:100%;
+	position:relative;}
+	
+	#footerContent{
+		width:918px;
+		display:block;
+		height:100px;
+		position:relative;
+		margin:10px auto;
+		overflow:hidden;
+		position:relative;}
+
+		#footerContent div.footbar{
+			width:918px;
+			height:auto;
+			display:block; 
+			position:relative;
+			overflow:hidden;
+			float:left;
+			color:#CCC;
+			text-transform:uppercase;
+			text-align:left;
+			padding-top:5px;
+			margin-top:10px;
+			border-top:solid 1px #ffcccc;}
+			
+			div.footbar img.logoFooter{float:right;}
+			div.footbar a:hover{color:#FF0; text-decoration:underline;}			
+			div.footbar ul {display:block; float:left; margin:5px 0px 5px 20px;}
+			div.footbar ul li{ display:block; float:left; text-decoration:none; font-size:10px; font-weight:bold; margin:0px 2px 0px 0px;}
+			div.footbar ul li a{color:#FFF; text-decoration:none; font-weight:normal;}
+			div.footbar p{font-size:11px; padding:5px 20px; display:block; color:#ffcccc; float:left; width:685px; border-top:solid 1px #ffcccc;}
+			div.footbar p a{color:#ffcccc; text-decoration:none;}
+
+#signature { background-image:url(images/ldl-trans.png); background-repeat:no-repeat; background-position:left top; position:absolute; display:block; bottom:0px; left:10px; font-family:Georgia, "Times New Roman", Times, serif; font-size:10px; color:#FFF; padding:5px 0px 15px 30px; text-decoration:none;}
+a#signature:hover{color:#C90;}

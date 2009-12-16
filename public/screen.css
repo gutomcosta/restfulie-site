@@ -11,7 +11,6 @@ body{
 	background-image:url(images/bgHeader.png);
 	background-position:left top;
 	background-repeat:repeat;
-	background-color:#0CF;
 	display:block; 
 	width:100%;
 	height:100px;
@@ -95,7 +94,7 @@ body{
 
 		
 		/*quickpretending*/
-		#contentHome #quickPretending {	width:450px; display:block; float:left;}
+		#contentHome #quickPretending {	width:450px; display:block; float:left; margin-bottom:20px; margin-top:25px;}
 			
 		#contentHome #quickPretending h2{ color:#660000; font-size:24px; display:block; width:475px; text-transform:uppercase; margin-top:20px; margin-bottom:30px; font-weight:bold; float:left;}	
         
@@ -157,19 +156,69 @@ body{
 
 	/*documentacao*/
     a#documentacaoBtn{background-image:url(images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move;}
-    a#documentacaoBtn span{display:none;}
+    a#documentacaoBtn span{display:block; position:relative; width:auto; height:auto; text-transform:uppercase; font-weight:bold; color:#FFF; font-size:24px; margin-left:25px; margin-top:22px;}
+    a#documentacaoBtn:hover span{color:#09F;}
 
 	/*css documentacao*/	
 	#contentDocumentacao{ width:100%; margin:0px auto; display:block; height:auto; text-align:left; position:relative;}
-		#contentDocumentacao h2{ color:#2a2948;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentDocumentacao h2{ color:#600;	font-size:42px;	display:block;	text-transform:uppercase; margin-top:40px; margin-left:20px; font-weight:bold;}		
 		#contentDocumentacao h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
 		
 		#textoCapitulo{width:auto; margin-right:10px; margin-left:360px; display:block; text-align:justify; margin-bottom:40px;}
 			#textoCapitulo h2 {font-size:30px; font-weight:bold; margin:0px 0px 10px 0px; padding:0px;}
-			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#150D6A;}
+			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#C00;}
 			#textoCapitulo p {font-size:12px; font-weight:normal;}
-			#textoCapitulo pre {font-size:11px; color:#625696; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}
+			#textoCapitulo pre {font-size:11px; color:#666; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}
+
+	/*css beneficios*/	
+	#contentBeneficios{ width:918px; margin:0px auto; display:block; height:auto; text-align:left; position:relative;}
+		#contentBeneficios h2{ color:#600;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentBeneficios h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}			
 		
+		.benefitsBox {
+			display:block; 
+			float:left;
+			width:322px;
+			margin-bottom:20px;
+			margin-left:20px;
+			padding-bottom:10px;
+			padding-left:105px;
+			border-bottom:solid 1px #999999;
+			background-image:url(../images/vraptorSprites2-trans.png);
+			background-repeat:no-repeat;}
+				
+			.benefitsBox h4{font-size:21px; color:#293049; text-transform:uppercase;}
+			.benefitsBox p{font-size:11px; color:#353535; text-align:justify;}
+	
+		/*depoimentos*/
+			.depoimentoClientes { display:block; width:100%; border-bottom:solid 1px #999999; padding-bottom:10px; overflow:auto; margin-bottom:10px; padding-left:20px; }
+				
+			.depoimentoClientes em{display:block; float:left; width:15%; font-weight:bold; font-size:11px;}
+			.depoimentoClientes em a{color:#1a1679; text-decoration:none;}
+			.depoimentoClientes em a:hover{text-decoration:underline;}
+			.depoimentoClientes p{float:right; width:80%; display:block; font-size:12px; text-align:justify; font-family:Georgia, "Times New Roman", Times, serif;}
+
+
+/*suporte css*/
+		#contentSuporte{ width:918px;	margin:0px auto; display:block;	height:auto; text-align:left; position:relative;}
+		#contentSuporte h2{ color:#600;	font-size:42px;	display:block;	text-transform:uppercase;	margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentSuporte h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
+			#contentSuporte .suporteBox{
+				width:292px; 
+				display:block; 
+				float:left; 
+				text-align:left;
+				margin-bottom:40px;
+				margin-left:10px;}
+				
+				#contentSuporte .suporteBox h4 {
+					display:block;
+					background-image:url(../images/vraptorSprites-trans.png);
+					background-repeat:no-repeat;
+					background-position:-240px -403px;
+					width:292px;
+					height:91px;
+					position:relative;}
 	
 /*footer css*/
 #footerWrap{

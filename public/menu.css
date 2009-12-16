@@ -59,19 +59,25 @@
 		
 		#menuElements li {list-style:none;}
 		
-		#menuElements li, #menuElements a{height:59px; width:146px;	display:block; position:relative; float:left; color:#FFF; text-decoration:none; text-align:center;}
-        #menuElements li a span{width:auto; display:block; height:auto; position:relative; padding:19px 5px; text-transform:uppercase;     			font-weight:bold;}
+		#menuElements li, #menuElements a{height:59px; display:block; position:relative; float:left; color:#FFF; text-decoration:none; text-align:center;}
+        #menuElements li a{padding-left:22px;}
+        #menuElements li a span{width:auto; display:block; height:auto; position:relative; padding:19px 20px 10px 0; text-transform:uppercase; font-weight:bold; float:left;}
 			
-			#menuElements a:hover{
-				background-image:url(images/restfulieSprites-trans.png);
-				background-repeat:no-repeat;
-				background-position:-469px -386px;
+			#menuElements li a:hover{
+    			background-image:url(images/leftBGBtn.png);
+			    background-position:left top;
+       			background-repeat:no-repeat;
+          		padding-left:22px;
     			font-weight:bold;}
+                
+                #menuElements li a:hover span{
+                 background-image:url(images/rightBGBtn.png);
+                 background-position:right top;}
 
 #subMenu{position:absolute; left:50%; top:0px; font-size:12px; font-weight:bold; margin-left:-440px; cursor:pointer; width:880px; }
 #subMenu li{display:block; float:left; padding:10px 5px;}
 #subMenu li a{display:block; color:#333; text-decoration:none; text-transform:uppercase;}
-#subMenu li a:hover{color:#03C;}
+#subMenu li a:hover{color:#600;}
 
 #subMenuDoc{
 	position:fixed;
@@ -88,4 +94,4 @@
 	#subMenuDoc ol li {padding:10px 0px; border-bottom:1px solid #575757; font-size:14px;}
 	
 	#subMenuDoc ol li a {text-decoration:none; color:#2C2C2C; font-weight:bold; display:block; width:300px; margin:0px auto;}
-	#subMenuDoc ol li a:hover{color:#625696;}
+	#subMenuDoc ol li a:hover{color:#600;}

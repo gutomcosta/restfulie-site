@@ -6,3 +6,56 @@ ActionController::RoutingError (No route matches "/rest.html" with {:method=>:ge
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-16 19:38:38) [GET]
+
+NameError (uninitialized constant SystemControllerController):
+  
+
+/!\ FAILSAFE /!\  Wed Dec 16 19:38:38 -0200 2009
+  Status: 500 Internal Server Error
+  
+ActionView::TemplateError (undefined method `humanize' for SystemController:Class) in /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/diagnostics.erb:
+
+    
+
+
+    In /library/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/diagnostics.erb
+
+
+    
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-16 19:38:52) [GET]
+
+NameError (uninitialized constant SystemControllerController):
+  
+
+/!\ FAILSAFE /!\  Wed Dec 16 19:38:53 -0200 2009
+  Status: 500 Internal Server Error
+  
+ActionView::TemplateError (undefined method `humanize' for SystemController:Class) in /Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/diagnostics.erb:
+
+    
+
+
+    In /library/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/templates/rescues/diagnostics.erb
+
+
+    
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-16 19:39:30) [GET]
+
+NameError (uninitialized constant SystemController):
+  
+
+Rendered rescues/_trace (22.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:39:35) [GET]
+Rendering systems/index
+Completed in 95ms (View: 93, DB: 0) | 200 OK [http://localhost/]

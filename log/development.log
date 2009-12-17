@@ -595,3 +595,33 @@ Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 23:37:09) [GE
 Rendering template within layouts/application
 Rendering systems/benefits
 Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 23:41:53) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:41:54) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:42:16) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:42:28) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:42:33) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]

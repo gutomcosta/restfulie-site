@@ -59,3 +59,539 @@ Rendering rescues/layout (internal_server_error)
 Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:39:35) [GET]
 Rendering systems/index
 Completed in 95ms (View: 93, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:41:22) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:41:33) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:41:39) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:42:07) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:43:17) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-16 19:45:24) [GET]
+
+ActionController::RoutingError (No route matches "/beneficios.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:45:30) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:46:35) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 19:47:05) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 19:47:06) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 19:49:44) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 19:50:27) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 19:50:33) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 55ms (View: 53, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 20:03:16) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 20:03:21) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 20:04:17) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 20:04:22) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-16 20:04:25) [GET]
+
+ActionController::RoutingError (No route matches "/rest.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 20:04:29) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 20:05:04) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+
+ActionView::TemplateError (undefined method `rest_path' for #<ActionView::Base:0x24df72c>) on line #28 of app/views/layouts/application.html.erb:
+25:     <div id="menuWrap">
+26:     	<ul id="menuElements">
+27:         	<li><a href="/"><span>home</span></a></li>
+28:         	<li><a href="<%=url_for :rest%>"><span>rest/hateoas</span></a></li>
+29:         	<li><a href="<%= url_for :benefits%>"><span>testimonials</span></a></li>
+30:         	<li><a href="<%=url_for :rails%>"><span>rails</span></a></li>
+31:         	<li><a href="<%=url_for :java%>"><span>java</span></a></li>
+
+    app/views/layouts/application.html.erb:28
+
+Rendered rescues/_trace (90.0ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 20:05:44) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:05:46) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:07:46) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:08:29) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:08:53) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:09:05) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:09:17) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:10:02) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:10:24) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:11:47) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:11:49) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:12:13) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:12:16) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:12:56) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:14:11) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:14:28) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 20:14:36) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 22:21:15) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 22:27:26) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 22:30:13) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 22:35:25) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 22:50:10) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 22:50:20) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 22:50:31) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 22:53:45) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 22:54:27) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 22:54:28) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 22:54:29) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 22:54:30) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 22:55:02) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 23:09:37) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 23:09:39) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 23:09:40) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:09:41) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:09:42) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:15:18) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:17:25) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 62ms (View: 61, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:17:57) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:18:04) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:19:56) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:20:04) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:20:10) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:23:07) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:23:14) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:23:26) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:23:33) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:23:51) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:24:19) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:25:08) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:25:15) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:25:23) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:25:32) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 60ms (View: 59, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:27:05) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:27:08) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:28:01) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:28:03) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:28:06) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:28:15) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:28:23) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2009-12-16 23:31:14) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#java (for 127.0.0.1 at 2009-12-16 23:31:16) [GET]
+Completed in 2ms (View: 1, DB: 0) | 303 See Other [http://localhost/restful_java]
+
+
+Processing SystemsController#rails (for 127.0.0.1 at 2009-12-16 23:31:19) [GET]
+Completed in 2ms (View: 1, DB: 0) | 303 See Other [http://localhost/restful_rails]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:31:22) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 58ms (View: 56, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-16 23:31:24) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:31:26) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 23:36:49) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-16 23:37:09) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]

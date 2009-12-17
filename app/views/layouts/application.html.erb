@@ -15,63 +15,60 @@
     	<div id="headerContent">
         	<h1 id="logoRestfulie"><span>restfulie</span></h1><!-- vraptorlogo-->
             
-            <ul id="langMenu">
+<!--            <ul id="langMenu">
             	<li><a id="engBtn" href="#.html"><span>ENGLISH</span></a></li>
                 <li><a id="ptBtn" href="#.html"><span>PORTUGUES</span></a></li>
-            </ul><!-- langMenu-->            
+            </ul>-->
         </div><!-- header content -->
     </div><!-- header wrap-->
 
     <div id="menuWrap">
     	<ul id="menuElements">
-        	<li><a href="index.html"><span>home</span></a></li>
-			<li><a href="documentacao.html"><span>documentação</span></a></li>
-			<li><a href="beneficios.html"><span>benefícios</span></a></li>			
-        	<li><a href="suporte.html"><span>suporte</span></a></li>
+        	<li><a href="/"><span>home</span></a></li>
+        	<li><a href="<%=url_for :rest%>"><span>rest/hateoas</span></a></li>
+        	<li><a href="<%= url_for :benefits%>"><span>testimonials</span></a></li>
+        	<li><a href="<%=url_for :rails%>"><span>rails</span></a></li>
+        	<li><a href="<%=url_for :java%>"><span>java</span></a></li>
+        	<li><a href="<%= url_for :support%>"><span>support</span></a></li>
         </ul><!-- menuElements-->
     </div><!-- menuWrap-->
     
-	<div id="contentWrap">
-    	<div id="contentSuporte">
-        	<h2><span>Suporte</span></h2>
-            <h3>precisando de ajuda? consulte-nos!</h3>
-                                         
-        </div><!-- contentDownload -->
-    </div><!-- content wrap-->
+	<%= yield %>
     
-   <div id="footerWrap">
+
+
+    <div id="footerWrap">
     	<div id="footerContent">
             <div class="footbar">
-            	<img class="logoFooter" src="images/logoCaelumGray-trans.png" alt="vraptor logo" />                
+            	<a href="http://caelumobjects.com" style="border:none"><img style="border:none" class="logoFooter" src="images/logoCaelumGray-trans.png" alt="caelum logo" /></a>
 					<ul>
-                	<li>site map:</li>
-                    <li><a href="index.html">home</a></li>
+                    <li><a href="/">home</a></li>
                     <li>|</li>
-                    <li><a href="rest.html">rest</a></li>
+                    <li><a href="<%=url_for :benefits%>">testimonials</a></li>
                     <li>|</li>
-                    <li><a href="rails.html">rails</a></li>
+                    <li><a href="<%=url_for :rest%>">rest/hateoas</a></li>
                     <li>|</li>
-                    <li><a href="java.html">java</a></li>
+                    <li><a href="<%=url_for :rails%>">rails</a></li>
                     <li>|</li>
-                    <li><a href="suporte.html">suporte</a></li>
+                    <li><a href="<%=url_for :java%>">java</a></li>
+                    <li>|</li>
+                    <li><a href="<%=url_for :support%>">support</a></li>
                 </ul>
-                <p><a href="#.html">licença de uso</a> - Restfulie ©2009 Caelum - Ensino e Inovação</p>
+                <p><a href="#.html">license</a> - Restfulie ©2009 Caelum Objects</p>
             </div><!-- footnote-->
         </div><!-- footer content -->
         <a id="signature" href="mailto:lokidg@gmail.com">loki|design</a>
     </div><!-- footer wrap-->
-<script type="text/javascript">
+
+	<script type="text/javascript">
 	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-
-<script type="text/javascript">
+	</script>
+	<script type="text/javascript">
 	try {
-	var pageTracker = _gat._getTracker("UA-270161-11");
+	var pageTracker = _gat._getTracker("UA-11770776-1");
 	pageTracker._trackPageview();
-	} catch(err) {}
- </script>
-    
+	} catch(err) {}</script>
+	    
 </body>
 </html>
-

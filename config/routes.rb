@@ -1,6 +1,12 @@
 ActionController::Routing::Routes.draw do |map|
   
   map.root :controller => :systems, :action => :index
+  map.benefits '/talking_about_restfulie', :controller => :systems, :action => :benefits
+  map.support '/support', :controller => :systems, :action => :support
+  map.rest '/what_is_rest_and_hateoas', :controller => :systems, :action => :rest
+  map.java '/restful_java', :controller => :systems, :action => :java
+  map.rails '/restful_rails', :controller => :systems, :action => :rails
+  
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

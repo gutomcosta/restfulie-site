@@ -123,12 +123,12 @@ body{
 		
 		/*video box*/
 		#contentHome #boxvideo {
-			background-image:url(images/restfulieSprites-trans.png); 
+			//background-image:url(images/restfulieSprites-trans.png); 
 			background-repeat:no-repeat; 
 			background-position: -7px -111px; 
 			margin-top:40px;
 			width:415px; 
-			height:315px; 
+			height:365px; 
 			padding-top:12px;
 			padding-left:12px;			
 			float:right;}		

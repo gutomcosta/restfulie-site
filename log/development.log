@@ -625,3 +625,51 @@ Processing SystemsController#index (for 127.0.0.1 at 2009-12-16 23:42:33) [GET]
 Rendering template within layouts/application
 Rendering systems/index
 Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:49:04) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:49:23) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:49:40) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:49:57) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:50:30) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:50:49) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:50:57) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:51:17) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]

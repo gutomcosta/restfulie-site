@@ -5,6 +5,8 @@
 body{
 	background-color:#660000; 
 	text-align:center;}
+    
+a{text-decoration:none;}
 
 /*header structure*/
 #headerWrap{
@@ -36,7 +38,19 @@ body{
 			left:0px;
 			top:0px;}
 			
-			#logoRestfulie span {display:none;}
+			#logoRestfulie span, #caelumObjects span {display:none;}
+       
+       	#caelumObjects {
+         background-image:url(images/restfulieSprites-trans.png);
+         background-position:-348px -151px;
+         background-repeat:no-repeat;
+         position:absolute;
+         right:0px;
+         top:20px;
+         width:156px;
+         height:62px;
+         display:block;
+         overflow:hidden;}
 
 /*menus like langbar and menuelements menu.css*/
 
@@ -95,8 +109,12 @@ body{
 		
 		/*quickpretending*/
 		#contentHome #quickPretending {	width:450px; display:block; float:left; margin-bottom:20px; margin-top:25px;}
+        #contentHome #moreAbout {width:100%; display:block; float:left; padding:10px 0px 30px 0px; height:auto; overflow:hidden;}
 			
-		#contentHome #quickPretending h2{ color:#660000; font-size:24px; display:block; width:475px; text-transform:uppercase; margin-top:20px; margin-bottom:30px; font-weight:bold; float:left;}	
+		#contentHome #quickPretending h2{ color:#660000; font-size:24px; display:block; width:100%; text-transform:uppercase; margin-top:20px; margin-bottom:15px; font-weight:bold; float:left;}	
+		#moreAbout h2{ color:#660000; font-size:24px; display:block; width:100%; text-transform:uppercase; margin-bottom:15px; font-weight:bold; float:left;}	        
+        #moreAbout p a{color:#600; font-weight:bold;}
+        #moreAbout p a:hover{color:#F00;}
         
         /*restfulieBenefits*/
         #contentHome #restBenefits{
@@ -118,14 +136,16 @@ body{
             text-transform:uppercase;
             color:#FFF;}
             
-            #restBenefits ol{margin-left:55px; margin-right:15px; display:block; width:auto; height:auto;}
-            	#restBenefits ol li{display:block; width:auto; height:auto; padding:10px; margin:auto; list-style-type:decimal;}
+            #restBenefits ol{margin-left:15px; margin-right:15px; display:block; width:auto; height:auto;}
+            	#restBenefits ol li{display:block; width:auto; height:auto; padding:8px 10px; list-style-type:none;}
+                #restBenefits ol li a{color:#600;}
+                #restBenefits ol li a:hover{color:#F00;}
 		
 		/*video box*/
 		#contentHome #boxvideo {
-			//background-image:url(images/restfulieSprites-trans.png); 
+			/*background-image:url(images/restfulieSprites-trans.png); 
 			background-repeat:no-repeat; 
-			background-position: -7px -111px; 
+			background-position: -7px -111px;*/
 			margin-top:40px;
 			width:415px; 
 			height:365px; 
@@ -155,20 +175,9 @@ body{
 					#contentHome #twitterBox ul li p span {font-weight:normal;}
 
 	/*documentacao*/
-    a#documentacaoBtn{background-image:url(images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move;}
-    a#documentacaoBtn span{display:block; position:relative; width:auto; height:auto; text-transform:uppercase; font-weight:bold; color:#FFF; font-size:24px; margin-left:25px; margin-top:22px;}
-    a#documentacaoBtn:hover span{color:#09F;}
-
-	/*css documentacao*/	
-	#contentDocumentacao{ width:100%; margin:0px auto; display:block; height:auto; text-align:left; position:relative;}
-		#contentDocumentacao h2{ color:#600;	font-size:42px;	display:block;	text-transform:uppercase; margin-top:40px; margin-left:20px; font-weight:bold;}		
-		#contentDocumentacao h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
-		
-		#textoCapitulo{width:auto; margin-right:10px; margin-left:360px; display:block; text-align:justify; margin-bottom:40px;}
-			#textoCapitulo h2 {font-size:30px; font-weight:bold; margin:0px 0px 10px 0px; padding:0px;}
-			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#C00;}
-			#textoCapitulo p {font-size:12px; font-weight:normal;}
-			#textoCapitulo pre {font-size:11px; color:#666; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}
+    a#documentacaoBtn{background-image:url(images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move; text-align:center;}
+    a#documentacaoBtn span{display:block; position:relative; width:auto; height:auto; text-transform:uppercase; font-weight:bold; color:#FFF; font-size:24px; margin-top:22px;}
+    a#documentacaoBtn:hover span{color:#F00;}
 
 	/*css beneficios*/	
 	#contentBeneficios{ width:918px; margin:0px auto; display:block; height:auto; text-align:left; position:relative;}
@@ -184,7 +193,7 @@ body{
 			padding-bottom:10px;
 			padding-left:105px;
 			border-bottom:solid 1px #999999;
-			background-image:url(../images/vraptorSprites2-trans.png);
+			background-image:url(images/restfulieSprites-trans.png);
 			background-repeat:no-repeat;}
 				
 			.benefitsBox h4{font-size:21px; color:#293049; text-transform:uppercase;}
@@ -194,9 +203,11 @@ body{
 			.depoimentoClientes { display:block; width:100%; border-bottom:solid 1px #999999; padding-bottom:10px; overflow:auto; margin-bottom:10px; padding-left:20px; }
 				
 			.depoimentoClientes em{display:block; float:left; width:15%; font-weight:bold; font-size:11px;}
-			.depoimentoClientes em a{color:#1a1679; text-decoration:none;}
+			.depoimentoClientes em a{color:#600; text-decoration:none;}
 			.depoimentoClientes em a:hover{text-decoration:underline;}
 			.depoimentoClientes p{float:right; width:80%; display:block; font-size:12px; text-align:justify; font-family:Georgia, "Times New Roman", Times, serif;}
+            .depoimentoClientes p a{color:#F00;}
+            .depoimentoClientes p a:hover{text-decoration:underline;}
 
 
 /*suporte css*/
@@ -209,16 +220,22 @@ body{
 				float:left; 
 				text-align:left;
 				margin-bottom:40px;
-				margin-left:10px;}
+				margin-left:14px;}
 				
 				#contentSuporte .suporteBox h4 {
 					display:block;
-					background-image:url(../images/vraptorSprites-trans.png);
+					background-image:url(images/restfulieSprites-trans.png);
 					background-repeat:no-repeat;
-					background-position:-240px -403px;
+					background-position:-7px -152px;
 					width:292px;
 					height:91px;
 					position:relative;}
+                    
+					#contentSuporte .suporteBox h4 span{color:#600; font-size:24px; padding-top:35px; padding-left:15px; display:block; width:auto; height:auto; overflow:hidden; font-weight:bold;}
+                    
+                    #contentSuporte .suporteBox p{font-size:12px;}
+                    #contentSuporte .suporteBox em{font-size:14px; font-weight:bold; display:block; width:100%; height:auto; border-bottom:solid 1px #999999; text-transform:uppercase; padding-top:25px; padding-bottom:5px; margin-bottom:5px; color:#333;}
+                    #contentSuporte .suporteBox a{color:#600;} #contentSuporte .suporteBox a:hover{color:#F00;} 
 	
 /*footer css*/
 #footerWrap{
@@ -259,3 +276,14 @@ body{
 
 #signature { background-image:url(images/ldl-trans.png); background-repeat:no-repeat; background-position:left top; position:absolute; display:block; bottom:0px; left:10px; font-family:Georgia, "Times New Roman", Times, serif; font-size:10px; color:#FFF; padding:5px 0px 15px 30px; text-decoration:none;}
 a#signature:hover{color:#C90;}
+
+	/*css documentacao*/	
+	#contentDocumentacao{ width:100%; margin:0px auto; display:block; height:auto; text-align:left; position:relative;}
+		#contentDocumentacao h2{ color:#600;	font-size:42px;	display:block;	text-transform:uppercase; margin-top:40px; margin-left:20px; font-weight:bold;}		
+		#contentDocumentacao h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
+		
+		#textoCapitulo{width:auto; margin-right:10px; margin-left:360px; display:block; text-align:justify; margin-bottom:40px;}
+			#textoCapitulo h2 {font-size:30px; font-weight:bold; margin:0px 0px 10px 0px; padding:0px;}
+			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#C00;}
+			#textoCapitulo p {font-size:12px; font-weight:normal;}
+			#textoCapitulo pre {font-size:11px; color:#666; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}

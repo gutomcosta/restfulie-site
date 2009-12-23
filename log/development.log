@@ -673,3 +673,2034 @@ Processing SystemsController#index (for 127.0.0.1 at 2009-12-17 09:51:17) [GET]
 Rendering template within layouts/application
 Rendering systems/index
 Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 16:04:07) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 54ms (View: 52, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 16:04:22) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 16:04:23) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-23 16:04:24) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 16:04:26) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 16:08:01) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:02) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:02) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:03) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:03) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:16) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:16) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:16) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:16) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:55) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 70ms (View: 69, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:56) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:56) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:56) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:56) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:57) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:08:59) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:08:59) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:09:01) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:01) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:01) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:01) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:09:27) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:27) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:27) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:27) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:09:28) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:28) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:28) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:28) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:09:37) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:37) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:37) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:09:37) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:11:06) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 73ms (View: 72, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:11:06) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:11:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/bgHeader.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:11:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/restfulieSprites-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:11:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/ldl-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:11:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/leftBGBtn.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:11:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/rightBGBtn.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:13:13) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:13:32) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:13:32) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:13:35) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 70ms (View: 69, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:13:35) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:13:38) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:13:39) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:17:09) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:17:51) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 16:18:01) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-23 16:18:03) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-23 16:18:04) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#rails (for 127.0.0.1 at 2009-12-23 16:18:05) [GET]
+Completed in 2ms (View: 1, DB: 0) | 303 See Other [http://localhost/restful_rails]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-23 16:22:38) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:22:39) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:28:02) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:28:20) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:28:33) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:28:57) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:29:02) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:29:51) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:30:25) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:30:50) [GET]
+Rendering template within layouts/application
+Rendering documentation/one_minute_guide
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:32:47) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:32:48) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:32:49) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:33:00) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:33:47) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2009-12-23 16:34:45) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-23 16:34:47) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#rails (for 127.0.0.1 at 2009-12-23 16:34:48) [GET]
+Completed in 2ms (View: 1, DB: 0) | 303 See Other [http://localhost/restful_rails]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:34:52) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:35:28) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:37:21) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:39:23) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:39:44) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+ERROR: compiling _run_erb_app47views47layouts47documentation46html46erb RAISED compile error
+/Users/caue/Documents/workspace/restfulie-site/app/views/layouts/documentation.html.erb:43: syntax error, unexpected '=', expecting tASSOC
+...minute_guide', :html_options = {:class => "link_toc"}).to_s)...
+                              ^
+Function body:           def _run_erb_app47views47layouts47documentation46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\n<head>\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n\t<title>restfulie</title>\n\t"
+
+
+
+
+; @output_buffer.concat(( stylesheet_link_tag :all, :cache => true ).to_s); @output_buffer.concat "\n    <!--[if lt IE 7]>\n    <script src=\"http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js\" type=\"text/javascript\"></script>\n    <![endif]-->\n</head>\n\n<body>\n\t<div id=\"headerWrap\">\n    \t<div id=\"headerContent\">\n        \t<h1 id=\"logoRestfulie\"><span>restfulie</span></h1><!-- vraptorlogo-->\n            \n<!--            <ul id=\"langMenu\">\n            \t<li><a id=\"engBtn\" href=\"#.html\"><span>ENGLISH</span></a></li>\n                <li><a id=\"ptBtn\" href=\"#.html\"><span>PORTUGUES</span></a></li>\n            </ul>-->\n\t\t\t\t\t\t<a id=\"caelumObjects\" href=\"http://www.caelumobjects.com/\" title=\"Caelum Objects Site\"><span>Caelum Objects</span></a>\n        </div><!-- header content -->\n    </div><!-- header wrap-->\n\n    <div id=\"menuWrap\">\n    \t<ul id=\"menuElements\">\n        \t<li><a href=\"/\"><span>home</span></a></li>\n\t\t\t\t\t<li><a href=\"/documentation/one_minute_guide\"><span>documentation</span></a></li>\n        \t<li><a href=\""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat((url_for :rest).to_s); @output_buffer.concat "\"><span>rest/hateoas</span></a></li>\n        \t<li><a href=\""
+; @output_buffer.concat(( url_for :benefits).to_s); @output_buffer.concat "\"><span>testimonials</span></a></li>\n        \t<li><a href=\""
+; @output_buffer.concat((url_for :rails).to_s); @output_buffer.concat "\"><span>rails</span></a></li>\n        \t<li><a href=\""
+; @output_buffer.concat((url_for :java).to_s); @output_buffer.concat "\"><span>java</span></a></li>\n        \t<li><a href=\""
+; @output_buffer.concat(( url_for :support).to_s); @output_buffer.concat "\"><span>support</span></a></li>\n        </ul><!-- menuElements-->\n    </div><!-- menuWrap-->\n    \n\n\t\t<div id=\"contentWrap\">\n\t\t\t<div id=\"contentDocumentacao\"> \n\t\t\t\t<h2>DOCUMENTATION</h2>\n\t\t\t\t<h3>CONFIGURATION AND UTILIZATION</h3>\n\t\t\t\t<ol>\n\t\t\t\t\t<li>"
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( link_to '1. Restfulie - One minute guide', :action => 'one_minute_guide', :html_options = {:class => "link_toc"}).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\n\t\t\t\t</ol>\n\t\t\t\t<br/>\n\t\t\t\tedneink\n\t\t\t</div>\n\t\t\t"
+
+
+
+
+
+; @output_buffer.concat(( yield ).to_s); @output_buffer.concat "\n\t\t</div>\n\t\n\n    <div id=\"footerWrap\">\n    \t<div id=\"footerContent\">\n            <div class=\"footbar\">\n            \t<a href=\"http://caelumobjects.com\" style=\"border:none\">"
+
+
+
+
+
+
+; @output_buffer.concat(( image_tag"logoCaelumGray-trans.png", :alt => "caelum logo", :class => "logoFooter" ).to_s); @output_buffer.concat "</a>\n\t\t\t\t\t<ul>\n                    <li><a href=\"/\">home</a></li>\n                    <li>|</li>\n                    <li><a href=\""
+
+
+
+; @output_buffer.concat((url_for :benefits).to_s); @output_buffer.concat "\">testimonials</a></li>\n                    <li>|</li>\n                    <li><a href=\""
+
+; @output_buffer.concat((url_for :rest).to_s); @output_buffer.concat "\">rest/hateoas</a></li>\n                    <li>|</li>\n                    <li><a href=\""
+
+; @output_buffer.concat((url_for :rails).to_s); @output_buffer.concat "\">rails</a></li>\n                    <li>|</li>\n                    <li><a href=\""
+
+; @output_buffer.concat((url_for :java).to_s); @output_buffer.concat "\">java</a></li>\n                    <li>|</li>\n                    <li><a href=\""
+
+; @output_buffer.concat((url_for :support).to_s); @output_buffer.concat "\">support</a></li>\n                </ul>\n                <p><a href=\"#.html\">license</a> - Restfulie \302\2512009 Caelum Objects</p>\n            </div><!-- footnote-->\n        </div><!-- footer content -->\n        <a id=\"signature\" href=\"mailto:lokidg@gmail.com\">loki|design</a>\n    </div><!-- footer wrap-->\n\n\t<script type=\"text/javascript\">\n\tvar gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");\n\tdocument.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));\n\t</script>\n\t<script type=\"text/javascript\">\n\ttry {\n\tvar pageTracker = _gat._getTracker(\"UA-11770776-2\");\n\tpageTracker._trackPageview();\n\t} catch(err) {}</script>\n\t\t    \n</body>\n</html>\n"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/caue/Documents/workspace/restfulie-site/app/views/layouts/documentation.html.erb:91:in `compile!'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_view/template.rb:199:in `render_template'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_view/base.rb:347:in `_render_with_layout'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:1326:in `default_render'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/methodoverride.rb:24:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/lock.rb:11:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/urlmap.rb:40:in `call'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/handler/mongrel.rb:68:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.2.pre/lib/rack/handler/mongrel.rb:38:in `run'
+/Users/caue/Documents/workspace/restfulie-site/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/caue/Documents/workspace/restfulie-site/app/views/layouts/documentation.html.erb:43: syntax error, unexpected '=', expecting tASSOC
+...minute_guide', :html_options = {:class => "link_toc"}).to_s)...
+                              ^) on line #43 of app/views/layouts/documentation.html.erb:
+40: 				<h2>DOCUMENTATION</h2>
+41: 				<h3>CONFIGURATION AND UTILIZATION</h3>
+42: 				<ol>
+43: 					<li><%= link_to '1. Restfulie - One minute guide', :action => 'one_minute_guide', :html_options = {:class => "link_toc"}%></li>
+44: 					
+45: 				</ol>
+46: 				<br/>
+
+    app/views/layouts/documentation.html.erb:91:in `compile!'
+
+Rendered rescues/_trace (104.8ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:39:47) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:40:40) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:41:17) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:41:41) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:41:56) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:42:39) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:42:45) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:44:35) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:44:36) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/screen.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:44:36) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/menu.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:44:36) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:44:36) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:44:36) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:45:07) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:45:07) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:45:07) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:45:07) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/logoCaelumGray-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:49:01) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:49:01) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:49:01) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:49:15) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:49:15) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:49:15) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:49:44) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:49:44) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:49:44) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:50:53) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:50:53) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:50:53) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:50:55) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:50:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:50:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:50:58) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:50:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:50:58) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:51:02) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:02) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:02) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:51:16) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:16) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:16) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:51:42) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:42) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:42) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:51:55) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 16:51:59) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/one_minute_guide
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/documentation/one_minute_guide]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:59) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 16:51:59) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 17:01:57) [GET]
+
+ActionController::UnknownAction (No action responded to one_minute_guide. Actions: client, features, help_and_examples, installing, live_examples, rendering_resources, roadmap, server, server_state_machine, short_samples, team, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#index (for 127.0.0.1 at 2009-12-23 17:02:03) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: client, features, help_and_examples, installing, live_examples, rendering_resources, roadmap, server, server_state_machine, short_samples, team, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#one_minute_guide (for 127.0.0.1 at 2009-12-23 17:02:26) [GET]
+
+ActionController::UnknownAction (No action responded to one_minute_guide. Actions: client, features, help_and_examples, installing, live_examples, rendering_resources, roadmap, server, server_state_machine, short_samples, team, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-23 17:02:30) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 94ms (View: 92, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing DocumentationController#installation (for 127.0.0.1 at 2009-12-23 17:02:31) [GET]
+
+ActionController::UnknownAction (No action responded to installation. Actions: client, features, help_and_examples, installing, live_examples, rendering_resources, roadmap, server, server_state_machine, short_samples, team, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2009-12-23 17:02:41) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing DocumentationController#installing (for 127.0.0.1 at 2009-12-23 17:02:42) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/installing
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/documentation/installing]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:02:42) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:02:42) [GET]
+
+ActionController::RoutingError (No route matches "/documentation/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing DocumentationController#installing (for 127.0.0.1 at 2009-12-23 17:04:41) [GET]
+Rendering template within layouts/documentation
+Rendering documentation/installing
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/documentation]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:07:55) [GET]
+
+ActionController::RoutingError (No route matches "/documentation" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:07:56) [GET]
+
+ActionController::RoutingError (No route matches "/documentation" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:07:58) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+
+ActionView::TemplateError (undefined method `rails_path' for #<ActionView::Base:0x1032937c8>) on line #39 of app/views/systems/index.html.erb:
+36: 					<li><b>Small →</b> it’s not a bloated solution with a huge list of APIs</li>
+37: 					<li><b>HATEOAS →</b> clients you are unaware of will not bother if you evolve</li>
+38: 						<li>1. Start by <a href="<%=url_for :rest%>">reading about <b>Rest and HATEOAS</b></a></li>
+39: 						<li>2. Then checkout <a href="<%=url_for :rails%>">our <b>Rails docs and examples</b></a></li>
+40: 						<li>3. Or <a href="<%=url_for :java%>">our <b>Java docs and examples</b></a></li>
+41: 				</ol>
+42: 			</div><!--restBenefits-->   
+
+    app/views/systems/index.html.erb:39
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:08:25) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+
+ActionView::TemplateError (undefined method `rails_path' for #<ActionView::Base:0x1033b2f78>) on line #39 of app/views/systems/index.html.erb:
+36: 					<li><b>Small →</b> it’s not a bloated solution with a huge list of APIs</li>
+37: 					<li><b>HATEOAS →</b> clients you are unaware of will not bother if you evolve</li>
+38: 						<li>1. Start by <a href="<%=url_for :rest%>">reading about <b>Rest and HATEOAS</b></a></li>
+39: 						<li>2. Then checkout <a href="<%=url_for :rails%>">our <b>Rails docs and examples</b></a></li>
+40: 						<li>3. Or <a href="<%=url_for :java%>">our <b>Java docs and examples</b></a></li>
+41: 				</ol>
+42: 			</div><!--restBenefits-->   
+
+    app/views/systems/index.html.erb:39
+
+Rendered rescues/_trace (46.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:08:26) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+
+ActionView::TemplateError (undefined method `rails_path' for #<ActionView::Base:0x103685f98>) on line #39 of app/views/systems/index.html.erb:
+36: 					<li><b>Small →</b> it’s not a bloated solution with a huge list of APIs</li>
+37: 					<li><b>HATEOAS →</b> clients you are unaware of will not bother if you evolve</li>
+38: 						<li>1. Start by <a href="<%=url_for :rest%>">reading about <b>Rest and HATEOAS</b></a></li>
+39: 						<li>2. Then checkout <a href="<%=url_for :rails%>">our <b>Rails docs and examples</b></a></li>
+40: 						<li>3. Or <a href="<%=url_for :java%>">our <b>Java docs and examples</b></a></li>
+41: 				</ol>
+42: 			</div><!--restBenefits-->   
+
+    app/views/systems/index.html.erb:39
+
+Rendered rescues/_trace (42.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:08:27) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+
+ActionView::TemplateError (undefined method `rails_path' for #<ActionView::Base:0x1032c8ef0>) on line #39 of app/views/systems/index.html.erb:
+36: 					<li><b>Small →</b> it’s not a bloated solution with a huge list of APIs</li>
+37: 					<li><b>HATEOAS →</b> clients you are unaware of will not bother if you evolve</li>
+38: 						<li>1. Start by <a href="<%=url_for :rest%>">reading about <b>Rest and HATEOAS</b></a></li>
+39: 						<li>2. Then checkout <a href="<%=url_for :rails%>">our <b>Rails docs and examples</b></a></li>
+40: 						<li>3. Or <a href="<%=url_for :java%>">our <b>Java docs and examples</b></a></li>
+41: 				</ol>
+42: 			</div><!--restBenefits-->   
+
+    app/views/systems/index.html.erb:39
+
+Rendered rescues/_trace (114.1ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:08:27) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+
+ActionView::TemplateError (undefined method `rails_path' for #<ActionView::Base:0x103535210>) on line #39 of app/views/systems/index.html.erb:
+36: 					<li><b>Small →</b> it’s not a bloated solution with a huge list of APIs</li>
+37: 					<li><b>HATEOAS →</b> clients you are unaware of will not bother if you evolve</li>
+38: 						<li>1. Start by <a href="<%=url_for :rest%>">reading about <b>Rest and HATEOAS</b></a></li>
+39: 						<li>2. Then checkout <a href="<%=url_for :rails%>">our <b>Rails docs and examples</b></a></li>
+40: 						<li>3. Or <a href="<%=url_for :java%>">our <b>Java docs and examples</b></a></li>
+41: 				</ol>
+42: 			</div><!--restBenefits-->   
+
+    app/views/systems/index.html.erb:39
+
+Rendered rescues/_trace (42.7ms)
+Rendered rescues/_request_and_response (0.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:08:27) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+
+ActionView::TemplateError (undefined method `rails_path' for #<ActionView::Base:0x1031abab8>) on line #39 of app/views/systems/index.html.erb:
+36: 					<li><b>Small →</b> it’s not a bloated solution with a huge list of APIs</li>
+37: 					<li><b>HATEOAS →</b> clients you are unaware of will not bother if you evolve</li>
+38: 						<li>1. Start by <a href="<%=url_for :rest%>">reading about <b>Rest and HATEOAS</b></a></li>
+39: 						<li>2. Then checkout <a href="<%=url_for :rails%>">our <b>Rails docs and examples</b></a></li>
+40: 						<li>3. Or <a href="<%=url_for :java%>">our <b>Java docs and examples</b></a></li>
+41: 				</ol>
+42: 			</div><!--restBenefits-->   
+
+    app/views/systems/index.html.erb:39
+
+Rendered rescues/_trace (43.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:08:28) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+
+ActionView::TemplateError (undefined method `rails_path' for #<ActionView::Base:0x1033d14f0>) on line #39 of app/views/systems/index.html.erb:
+36: 					<li><b>Small →</b> it’s not a bloated solution with a huge list of APIs</li>
+37: 					<li><b>HATEOAS →</b> clients you are unaware of will not bother if you evolve</li>
+38: 						<li>1. Start by <a href="<%=url_for :rest%>">reading about <b>Rest and HATEOAS</b></a></li>
+39: 						<li>2. Then checkout <a href="<%=url_for :rails%>">our <b>Rails docs and examples</b></a></li>
+40: 						<li>3. Or <a href="<%=url_for :java%>">our <b>Java docs and examples</b></a></li>
+41: 				</ol>
+42: 			</div><!--restBenefits-->   
+
+    app/views/systems/index.html.erb:39
+
+Rendered rescues/_trace (42.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:08:51) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#installing (for 127.0.0.1 at 2009-12-23 17:08:53) [GET]
+
+NameError (uninitialized constant RestfulRailsController):
+  
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:09:06) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:09:30) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:09:33) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:10:05) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:10:22) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:10:28) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:10:41) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:11:13) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:11:21) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:11:55) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:12:11) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:12:36) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:12:44) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:12:55) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:13:02) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:13:11) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:13:20) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:13:36) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:15:31) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:15:39) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/live_examples" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:15:42) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/short_samples" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:15:46) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/features" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:15:58) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/short_samples" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:16:27) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:16:32) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:16:46) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/features" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#features (for 127.0.0.1 at 2009-12-23 17:17:05) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/features
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://localhost/restful_rails/features]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:05) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:05) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#short_samples (for 127.0.0.1 at 2009-12-23 17:17:06) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/short_samples
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/short_samples]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:06) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-23 17:17:08) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:08) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:08) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#rendering_resources (for 127.0.0.1 at 2009-12-23 17:17:09) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/rendering_resources
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_rails/rendering_resources]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:09) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:09) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server_state_machine (for 127.0.0.1 at 2009-12-23 17:17:10) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_state_machine
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_rails/server_state_machine]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:10) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:10) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2009-12-23 17:17:11) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:11) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:11) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#help_and_examples (for 127.0.0.1 at 2009-12-23 17:17:12) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/help_and_examples
+Completed in 75ms (View: 74, DB: 0) | 200 OK [http://localhost/restful_rails/help_and_examples]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:12) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:12) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#roadmap (for 127.0.0.1 at 2009-12-23 17:17:14) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/roadmap
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/roadmap]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:14) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:14) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#what_is_new (for 127.0.0.1 at 2009-12-23 17:17:16) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/what_is_new
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_rails/what_is_new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:16) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:17:16) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:27:01) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing SystemsController#java (for 127.0.0.1 at 2009-12-23 17:27:36) [GET]
+Completed in 4ms (View: 3, DB: 0) | 303 See Other [http://localhost/restful_java]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:28:24) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulJavaController#installing (for 127.0.0.1 at 2009-12-23 17:28:25) [GET]
+
+ActionView::MissingTemplate (Missing template restful_java/installing.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RestfulJavaController#installing (for 127.0.0.1 at 2009-12-23 17:28:43) [GET]
+Rendering template within layouts/restful_java
+Rendering restful_java/installing
+Completed in 349ms (View: 347, DB: 0) | 200 OK [http://localhost/restful_java]
+
+
+Processing RestfulJavaController#short_samples (for 127.0.0.1 at 2009-12-23 17:28:46) [GET]
+Rendering template within layouts/restful_java
+Rendering restful_java/short_samples
+Completed in 68ms (View: 67, DB: 0) | 200 OK [http://localhost/restful_java/short_samples]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:28:46) [GET]
+
+ActionController::RoutingError (No route matches "/restful_java/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:28:46) [GET]
+
+ActionController::RoutingError (No route matches "/restful_java/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulJavaController#rendering_resources (for 127.0.0.1 at 2009-12-23 17:28:48) [GET]
+Rendering template within layouts/restful_java
+Rendering restful_java/rendering_resources
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_java/rendering_resources]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:28:48) [GET]
+
+ActionController::RoutingError (No route matches "/restful_java/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-23 17:28:48) [GET]
+
+ActionController::RoutingError (No route matches "/restful_java/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulJavaController#installing (for 127.0.0.1 at 2009-12-23 17:28:49) [GET]
+Rendering template within layouts/restful_java
+Rendering restful_java/installing
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_java]

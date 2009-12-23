@@ -10,7 +10,7 @@ a{text-decoration:none;}
 
 /*header structure*/
 #headerWrap{
-	background-image:url(images/bgHeader.png);
+	background-image:url(../images/bgHeader.png);
 	background-position:left top;
 	background-repeat:repeat;
 	display:block; 
@@ -31,7 +31,7 @@ a{text-decoration:none;}
 			display:block;
 			width:336px;
 			height:88px;
-			background-image:url(images/restfulieSprites-trans.png);
+			background-image:url(../images/restfulieSprites-trans.png);
 			background-position:-6px 0px;
 			background-repeat:no-repeat;
 			position:absolute;
@@ -41,7 +41,7 @@ a{text-decoration:none;}
 			#logoRestfulie span, #caelumObjects span {display:none;}
        
        	#caelumObjects {
-         background-image:url(images/restfulieSprites-trans.png);
+         background-image:url(../images/restfulieSprites-trans.png);
          background-position:-348px -151px;
          background-repeat:no-repeat;
          position:absolute;
@@ -56,7 +56,7 @@ a{text-decoration:none;}
 
 /*banner css configuration*/
 #bannerWrap{
-	background-image:url(images/bgHeader.png);
+	background-image:url(../images/bgHeader.png);
 	background-position:0 -158px;
 	background-repeat:repeat;
 	display:block; 
@@ -87,9 +87,9 @@ a{text-decoration:none;}
         
         #banner div#smallBox{border-left:1px solid #FFF; border-right:1px solid #FFF;}
         
-        #banner div#hypermediaBox h3{background-image:url(images/restfulieSprites-trans.png); background-position:0px -520px; padding-top:100px; margin-top:30px;  background-repeat:no-repeat;}
-        #banner div#smallBox h3{background-image:url(images/restfulieSprites-trans.png); background-position:-242px -487px; padding-top:130px;  background-repeat:no-repeat;}
-        #banner div#simpleBox h3{background-image:url(images/restfulieSprites-trans.png); background-position:-510px -500px; padding-top:110px; margin-top:25px;  background-repeat:no-repeat;}        
+        #banner div#hypermediaBox h3{background-image:url(../images/restfulieSprites-trans.png); background-position:0px -520px; padding-top:100px; margin-top:30px;  background-repeat:no-repeat;}
+        #banner div#smallBox h3{background-image:url(../images/restfulieSprites-trans.png); background-position:-242px -487px; padding-top:130px;  background-repeat:no-repeat;}
+        #banner div#simpleBox h3{background-image:url(../images/restfulieSprites-trans.png); background-position:-510px -500px; padding-top:110px; margin-top:25px;  background-repeat:no-repeat;}        
         
 /*content css*/
 #contentWrap{
@@ -99,7 +99,7 @@ a{text-decoration:none;}
 	position:relative;
 	overflow:auto;
 	background-color:#FFF;
-	background-image:url(images/bgHeader.png);
+	background-image:url(../images/bgHeader.png);
 	background-position:0px -461px;
 	background-repeat:repeat-x;}
 	
@@ -118,7 +118,7 @@ a{text-decoration:none;}
         
         /*restfulieBenefits*/
         #contentHome #restBenefits{
-         	background-image:url(images/restfulieSprites-trans.png);
+         	background-image:url(../images/restfulieSprites-trans.png);
             background-repeat:no-repeat;
         	background-position:-580px 0px;
          	width:450px;
@@ -162,7 +162,7 @@ a{text-decoration:none;}
 			
 			#contentHome #twitterBox ul{list-style-type:none;}
 				#contentHome #twitterBox ul li {
-					background-image:url(images/restfulieSprites-trans.png); 
+					background-image:url(../images/restfulieSprites-trans.png); 
 					background-position:-1008px -463px; 
 					background-repeat:no-repeat; 			
 					padding-left:60px;
@@ -175,7 +175,7 @@ a{text-decoration:none;}
 					#contentHome #twitterBox ul li p span {font-weight:normal;}
 
 	/*documentacao*/
-    a#documentacaoBtn{background-image:url(images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move; text-align:center;}
+    a#documentacaoBtn{background-image:url(../images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move; text-align:center;}
     a#documentacaoBtn span{display:block; position:relative; width:auto; height:auto; text-transform:uppercase; font-weight:bold; color:#FFF; font-size:24px; margin-top:22px;}
     a#documentacaoBtn:hover span{color:#F00;}
 
@@ -193,7 +193,7 @@ a{text-decoration:none;}
 			padding-bottom:10px;
 			padding-left:105px;
 			border-bottom:solid 1px #999999;
-			background-image:url(images/restfulieSprites-trans.png);
+			background-image:url(../images/restfulieSprites-trans.png);
 			background-repeat:no-repeat;}
 				
 			.benefitsBox h4{font-size:21px; color:#293049; text-transform:uppercase;}
@@ -224,7 +224,7 @@ a{text-decoration:none;}
 				
 				#contentSuporte .suporteBox h4 {
 					display:block;
-					background-image:url(images/restfulieSprites-trans.png);
+					background-image:url(../images/restfulieSprites-trans.png);
 					background-repeat:no-repeat;
 					background-position:-7px -152px;
 					width:292px;
@@ -274,7 +274,7 @@ a{text-decoration:none;}
 			div.footbar p{font-size:11px; padding:5px 20px; display:block; color:#ffcccc; float:left; width:685px; border-top:solid 1px #ffcccc;}
 			div.footbar p a{color:#ffcccc; text-decoration:none;}
 
-#signature { background-image:url(images/ldl-trans.png); background-repeat:no-repeat; background-position:left top; position:absolute; display:block; bottom:0px; left:10px; font-family:Georgia, "Times New Roman", Times, serif; font-size:10px; color:#FFF; padding:5px 0px 15px 30px; text-decoration:none;}
+#signature { background-image:url(../images/ldl-trans.png); background-repeat:no-repeat; background-position:left top; position:absolute; display:block; bottom:0px; left:10px; font-family:Georgia, "Times New Roman", Times, serif; font-size:10px; color:#FFF; padding:5px 0px 15px 30px; text-decoration:none;}
 a#signature:hover{color:#C90;}
 
 	/*css documentacao*/	
@@ -287,3 +287,8 @@ a#signature:hover{color:#C90;}
 			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#C00;}
 			#textoCapitulo p {font-size:12px; font-weight:normal;}
 			#textoCapitulo pre {font-size:11px; color:#666; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}
+
+
+.logoFooter {
+  border:none;
+}

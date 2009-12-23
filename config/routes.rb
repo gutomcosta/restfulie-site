@@ -4,8 +4,8 @@ ActionController::Routing::Routes.draw do |map|
   map.benefits '/talking_about_restfulie', :controller => :systems, :action => :benefits
   map.support '/support', :controller => :systems, :action => :support
   map.rest '/what_is_rest_and_hateoas', :controller => :systems, :action => :rest
-  map.java '/restful_java', :controller => :systems, :action => :java
-  map.rails '/restful_rails', :controller => :systems, :action => :rails
+  map.java '/restful_java', :controller => :restful_java, :action => :installing
+  map.rails '/restful_rails', :controller => :restful_rails, :action => :installing
   
   # The priority is based upon order of creation: first created -> highest priority.
 
@@ -46,6 +46,6 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
-  # map.connect ':controller/:action/:id'
+  map.connect ':controller/:action'
   # map.connect ':controller/:action/:id.:format'
 end

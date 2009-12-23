@@ -2704,3 +2704,39 @@ Processing RestfulJavaController#installing (for 127.0.0.1 at 2009-12-23 17:28:4
 Rendering template within layouts/restful_java
 Rendering restful_java/installing
 Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_java]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-23 17:53:55) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:53:57) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:54:01) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:54:14) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:54:25) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-23 17:54:33) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_rails]

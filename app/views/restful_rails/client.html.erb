@@ -1,0 +1,107 @@
+<div id="textoCapitulo">
+	<h2>Client side usage</h2>
+	Create your class and invoke the *uses_restfulie* method:
+
+	<pre>class Order < ActiveRecord::Base
+	uses_restfulie
+end
+	</pre>
+
+	One should first acquire the representation from the server through your common GET request and process it through the usual from_* methods:
+	<pre>xml = Net::HTTP.get(URI.parse('http://www.caelum.com.br/orders/1'))
+order = Order.from_xml(xml)</pre>
+
+or use the restfulie *from_web*:
+	<pre>order = Order.from_web 'http://www.caelum.com.br/orders/1'</pre>
+
+	And now you can invoke all those actions in order to change your resource's state:
+
+	<pre>
+order.refresh
+order.update
+order.destroy
+order.pay
+	</pre>
+
+	Note that:
+	<ul>
+	<li> refresh is get</li>
+	<li> update is put (and you have to put everything back)</li>
+	<li> destroy is delete</li>
+	<li> pay (unknown methods) is post</li>
+</ul>
+
+	<h3>Resource format support</h3>
+
+	Restfulie currently supports full xml+atom, partial xml+rel and will soon expand its support to json+links.
+
+
+	<h3>Entry points: POST</h3>
+
+	In some cases, one wants to access an entry point through a <b>POST</b> request, i.e. adding a new Product to the system:
+
+	<pre>class Product
+	uses_restfulie
+	entry_point_for.create.at 'http://www.caelum.com.br/product'
+end
+
+product = Product.remote_create Product.new</pre>
+
+	<h3>Following 301 response code</h3>
+
+	According to "https specification":http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html , 301 links can be automatically followed when using the <b>GET</b> and <b>HEAD</b> verbs:
+
+	<pre>
+product = Product.from_web 'http://www.caelum.com.br/product/2'
+	</pre>
+	
+	In the above example, it received a 301 response and followed the <b>Location</b> header.
+
+	But in order to follow 301 responses in any other verbs, you have to explicitely define it:
+	<pre>class Product
+	uses_restfulie
+	entry_point_for.create.at 'http://www.caelum.com.br/product'
+
+	follows.moved_permanently
+end
+
+product = Product.remote_create Product.new</pre>
+
+	<h3>HTTP verbs</h3>
+
+	By default, restfulie uses the following table:
+
+<ul>
+	<li>destroy, cancel and delete send a DELETE request</li>
+	<li>update sends a PUT request</li>
+	<li>refresh, reload, show, latest sends a GET request</li>
+	<li>other methods sends a POST request</li>
+</ul>
+
+	If you want to use a custom http verb in order to send your request, you can do it by setting the optional string 'method':
+
+	<pre>order.update(:method=>"post")</pre>
+
+<h3>Request parameters</h3>
+
+	If you want to send extra parameters, you can do it through the <b>data</b> parameter:
+
+	<pre>order.pay(:data => {:payment => my_payment})</pre>
+
+	The parameters will be serialized either to xml or json according to which format was used to deserialize the order at first place.
+
+<h3>Executing another GET request</h3>
+
+	If your method executes another <b>GET</b> request, it will automatically deserialize its result as:
+
+	<pre>order = Order.from_web order_uri
+payment = order.check_payment_info</pre>
+
+	If you want to parse the response yourself, instead of receiving just the final deserialized object, you can do it by passing a body to your method
+
+<pre>order = Order.from_web order_uri
+successful = order.check_payment_info do |response|
+  return response.code==200
+end</pre>
+
+</div>

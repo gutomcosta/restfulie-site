@@ -1,0 +1,73 @@
+<div id="textoCapitulo">
+	You can render your resource in any one of the following ways:
+
+	<h3>render_resource</h3>
+	Will render the resource:
+	<pre>
+def show
+  @order = Order.find(params[:id])
+  render_resource @order 
+end</pre>
+
+	If you want to pass an extra hash as options to the serializing function (to_xml, to_json, ...), you can do:
+<pre>
+def show
+  @order = Order.find(params[:id])
+  render_resource @order, { :exclude=> "paid_at"} 
+end</pre>
+
+	<h3>render</h3>
+	You can render the resource with the typical render method:
+
+	<pre>
+def show
+   @order = Order.find(params[:id])
+   render :resource => @order, :with => { :exclude=> "paid_at"}, :status => 201, :other_extra_key => :value
+end
+	</pre>
+
+	<h3>format</h3>
+	render_resource detects what the format is and is able to render xml, json, pretty much in the same way that respond_to works:
+
+	<pre>
+def show
+   @order = Order.find(params[:id])
+   respond_to do |format|
+      format.html # show.html.erb
+      format.xml  { render_resource @order, :except => [:paid_at] }
+      format.json { render_resource @order, :except => [:paid_at] }
+   end
+end
+	</pre>
+
+	<h3>etag support</h3>
+
+	When a client accesses a resource's representation for the first time, <b>Restfulie</b> automatically generates the etag from your resource as <b>etag = resource</b> and returns it to the client.<br/><br/>
+
+	The client will then be able to send it back to the server when further working with this representation. Once the client sends the etag again, the server invocation to render_resource will use its value to check if the client cached representation is still valid. If it is, the server will return a 304 Not modified response and not render the response again.<br/><br/>
+
+	Proxy servers staying between the client and the server might use the information provided by the server to lower even further the latency by not hitting the server if possible.<br/><br/>
+
+	Server-side controller:
+<pre>def show
+  render_resource Order.find(params[:id])
+end</pre>
+
+	Server-side model:
+	<pre>class Order < ActiveRecord::Base
+	transition :latest, {:action => :show}
+end</pre>
+
+	Client side usage:
+	<pre>
+order =  Order.from_web uri # executes a GET request, receives the etag and last-modified
+puts order.price
+
+order = order.latest # executes a GET, receives a 304
+puts order.price</pre>
+
+	<h3>last modified</h3>
+
+	If your resource answers to the method *updated_at* (as ActiveRecord already does), its result will be used to set your resource's representation response header "Last modified". Pretty much as with the *etag*, the server will respond with a 304 Not modified if the resource last update matches the new client's request.
+
+</div>

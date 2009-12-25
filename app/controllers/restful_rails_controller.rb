@@ -17,7 +17,7 @@ class RestfulRailsController < ApplicationController
   end
   def live_examples
   end
-  def team
+  def license
   end
   def roadmap
   end

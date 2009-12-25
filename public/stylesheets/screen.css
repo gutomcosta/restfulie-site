@@ -286,7 +286,7 @@ a#signature:hover{color:#C90;}
 			#textoCapitulo h2 {font-size:30px; font-weight:bold; margin:0px 0px 10px 0px; padding:0px;}
 			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#C00;}
 			#textoCapitulo p {font-size:12px; font-weight:normal;}
-			#textoCapitulo pre {font-size:11px; color:#666; font-family:"Courier New", Courier, monospace; margin-bottom:10px;}
+			#textoCapitulo pre {font-size:11px; color:#666; font-family:"Courier New", Courier, monospace; margin-bottom:10px; margin-top:10px;}
 
 
 .logoFooter {

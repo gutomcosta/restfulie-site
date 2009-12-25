@@ -3662,3 +3662,355 @@ ActionController::RoutingError (No route matches "/restful_rails/images/subMenuB
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:43:59) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:43:59) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:43:59) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:44:02) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:44:02) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:44:02) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:44:34) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:44:34) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:44:34) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:45:01) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 64ms (View: 63, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:45:01) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:45:01) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:45:25) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:45:25) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:45:25) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:47:32) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:47:32) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:47:32) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:47:41) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:48:50) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 63ms (View: 62, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:48:50) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:48:50) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:49:02) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:49:03) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:49:03) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:49:05) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:49:05) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:49:05) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:50:15) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:15) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:15) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:50:23) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 63ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:24) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:24) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:50:43) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:43) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:43) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:50:49) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:49) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:49) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:50:55) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:55) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:50:55) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-25 13:51:15) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:51:15) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-25 13:51:15) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

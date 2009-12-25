@@ -1,0 +1,102 @@
+<div id="textoCapitulo">
+<h2>Typical hypermedia aware resource representation</h2>
+
+<p>
+Trying to follow the definition of a RESTful application supporting resources with hypermedia content, a resource would be:
+</p>
+
+<pre>
+<order>
+	<product>basic rails course</product>
+	<product>RESTful training</product>
+	<atom:link rel="refresh" href="http://www.caelum.com.br/orders/1" xmlns:atom="http://www.w3.org/2005/Atom"/>
+	<atom:link rel="update" href="http://www.caelum.com.br/orders/1" xmlns:atom="http://www.w3.org/2005/Atom"/>
+	<atom:link rel="pay" href="http://www.caelum.com.br/orders/1/pay" xmlns:atom="http://www.w3.org/2005/Atom"/>
+	<atom:link rel="destroy" href="http://www.caelum.com.br/orders/1" xmlns:atom="http://www.w3.org/2005/Atom"/>
+</order>
+</pre>
+
+<h2>Restfulie: client-side</h2>
+
+<p>Example on accessing a resource and its services through the restfulie API:</p>
+
+<pre>
+order = Order.from_web resource_uri
+
+puts "Order price is #{order.price}"
+
+order.pay payment                        # sends a post request to pay this order
+
+order.cancel                             # sends a delete request
+</pre>
+
+<h2>Restfulie: server-side</h2>
+
+<p>This is a simple example how to make your state changes available to your resource consumers:</p>
+
+<pre>
+class Order < ActiveRecord::Base
+
+  acts_as_restfulie do |transitions|
+    transitions << [:show]
+    transitions << [:destroy] if can_cancel?
+    transitions << [:pay, {:id => id}] if can_pay?
+  end
+end
+</pre>
+
+*You might want to create a migration with a string field named status for your resource:*
+
+<pre>
+scripts/generate migration add_status_to_order	
+</pre>
+
+Content:
+
+<pre>
+class AddStatusToOrder < ActiveRecord::Migration
+  def self.up
+    add_column :orders, :status, :string
+	Order.all.each do |order|
+		order.status = "unpaid"
+		order.save
+	end
+  end
+
+  def self.down
+    remove_column :orders, :status
+  end
+end
+</pre>
+
+Or simply define a status reader and writer on your own.
+
+h2. Restfulie server-side: state machine
+
+For those willing to implement a more complex or advanced state machine, you can use the dsl-like api:
+
+<pre>
+class Order < ActiveRecord::Base
+  acts_as_restfulie
+
+  state :unpaid, :allow => [:latest, :pay, :cancel]
+  state :cancelled, :allow => :latest
+
+  transition :latest, {:action => :show}
+  transition :cancel, {:action => :destroy}, :cancelled
+  transition :pay, {}, :preparing
+end
+</pre>
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11770776-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>

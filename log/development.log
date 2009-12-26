@@ -5202,3 +5202,43 @@ ActionController::RoutingError (No route matches "/restful_rails/images/subMenuB
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-26 11:30:08) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 27ms (View: 26, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-26 11:30:21) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#short_samples (for 127.0.0.1 at 2009-12-26 11:30:26) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/short_samples
+Completed in 38ms (View: 36, DB: 0) | 200 OK [http://localhost/restful_rails/short_samples]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 11:30:26) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 11:30:27) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-26 11:30:31) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]

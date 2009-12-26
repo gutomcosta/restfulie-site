@@ -69,5 +69,19 @@ puts order.price</pre>
 	<h3>last modified</h3>
 
 	If your resource answers to the method *updated_at* (as ActiveRecord already does), its result will be used to set your resource's representation response header "Last modified". Pretty much as with the *etag*, the server will respond with a 304 Not modified if the resource last update matches the new client's request.
+	
+<h3>rendering a resource after its creation</h3>
+
+When a resource is created, a response code 201 should be returned with an optional representation of the created resource.
+
+In order to do that, Restfulie allows you to invoke the <b>render_created</b> method:
+
+<pre>
+	if @order.save
+		render_created @order
+	end
+</pre>
+
+Render created will also set the Location response header to the resource retrieval location.
 
 </div>

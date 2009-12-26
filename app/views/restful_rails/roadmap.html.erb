@@ -1,2 +1,114 @@
 <div id="textoCapitulo">
+	<h3> Already in the trunk</h3>
+<ul>
+<li> extract method with links to be able to use builders for custom formats  TO DOC</li>
+<li> render_created renders a resource with 201 and its location  TO DOC</li>
+<li> support multiple media types  TO DOC</li>
+<li> support Restfulie.at('http://localhost:3000/cities').create(city)  TO DOC</li>
+<li> support Restfulie.at('http://localhost:3000/cities/5').get  TO DOC</li>
+<li> support Restfulie.at('http://localhost:3000/cities/5').get.web_response  TO DOC</li>
+<li> support Restfulie.at.accepts and Restfulie.at.as  TO DOC</li>
+<li> server side auto render media types according to accepts:  TO DOC
+	    @hotel = Hotel.find(params[:id])
+	    render_resource @hotel</li>
+<li> atom feed support while rendering a collection  TO DOC</li>
+<li> website</li>
+<li> render_resource working with webkit accept header  TO DOC</li>
+<li> support 404 by default  TO DOC</li>
+<li> atom feed should render partial or full representation  TO DOC</li>
+<li> default show, create and delete methods for restfuliecontroller  TO DOC</li>
+<li> generic respond_to / respond_with TO DOC</li>
+</ul>
+
+	<h3> Next release</h3>
+<ul>
+<li> vendor jeokkarak</li>
+<li> migrate ruby documentation page</li>
+<li> migrate java documentation page</li>
+<li> doc everything</li>
+<li> doc atom feed support to multiple entitie types</li>
+<li> doc cache example</li>
+<li> atom client</li>
+<li> cucumber</li>
+<li> release 0.5</li>
+</ul>
+
+	<h3> Later</h3>
+<ul>
+<li> cucumber should start server on its own</li>
+<li> support link to external resources:</li>
+	<pre>class Album
+	  has_many :songs
+	  composite_resource :songs
+	end</pre>
+	will serialize all songs with it using its URI
+	<pre>class Album
+	  has_many :songs
+	  composite_resource :songs, :uri => :uri
+	end</pre>
+	will serialize all songs as relations with their own uri
+	<pre>class Album
+	  has_many :songs
+	  composite_resource :songs do |song|
+	    song.to_xml(...)
+	  end
+	end</pre>
+	will serialize all songs with it using its URI
+<li> video</li>
+<li> example for twitter public timeline as wrest (nice!): http://github.com/kaiwren/wrest/blob/master/examples/twitter_public_timeline.rb</li>
+<li> restfulie webpage: twitter search result for #restfulie</li>
+<li> when defining a transition inside acts_as_restfulie, remove empty hash and array when no options are provided</li>
+<li> remove client dependency from ActiveRecord (based on WREST code)</li>
+	        * support jeokkarak if class does not exist
+	        * if the class already exists, jeokkarak: instantiates it, sets attribuets, those which do not exist -> inject</li>
+<li> accept Expires header</li>
+<li> refactor out from_response (its duplicated with from_web)</li>
+<li> refactor from_hash</li>
+<li> learn more from wrest http://github.com/kaiwren/wrest/blob/master/CHANGELOG</li>
+
+
+
+<li> support multiple status state machine</li>
+	<pre>class Order
+	  status :approval
+	  status :processing
+	end</pre>
+<li> twitter and other examples</li>
+<li> support a Logger</li>
+<li> rails 3 easier support (no controller argument!)</li>
+<li> BUG: atom last_updated date should be in format 2009-07-01T12:05:00Z</li>
+<li> 406 should send a xhtml representation with extra options</li>
+<li> support Link header</li>
+<li> support PATCH verb</li>
+<li> support searchs</li>
+<li> integration tests automatic</li>
+<li> conditional POST and PUT</li>
+<li>  Use If-Match and an ETag for conditional post and put</li>
+<li> allow if with a proc while defining a transition</li>
+<li> Use If-Unmodified-Since on a timestamp to </li>
+<li> client side should allow withAuth, withTimeStamp</li>
+<li> client example on how to use restfulie without rails and activerecord</li>
+<li> relations instead of transitions</li>
+<li> support PUT create and update</li>
+<li> support compressing</li>
+<li> support Order.remote_retrieve order  # invokes your retrieve end point </li>
+<li> support EntryPoints.create Order do |order| '' end</li>
+<li> support aasm and change parameter order for transition: (i.e. last one is HASH, first is name, second (if existing) is target state)</li>
+<li> lucas restfulie-vraptor support last-modified and etag</li>
+<li> lucas vraptor big upload check, missing contentlength check</li>
+<li> controller filtering based on status</li>
+<li> rails 411 check</li>
+<li> rel prepend suffix as http://iansrobinson.com/resources/link-relations/preceding</li>
+<li> automatically generate uri for this rel with its transition description</li>
+<li> support 302 and 303</li>
+<li> english tutorial and screencast</li>
+<li> allows pure String/byte array client side post and server side retrieval</li>
+<li> controller method should check if its an restfulie resource</li>
+<li> pure href definition of link</li>
+<li> allow servers to define a state method instead of internal variable</li>
+<li> when receiving a 201 + content, it should believe the content</li>
+<li> when receiving a 201 without any content, it should allow to redirect or not</li>
+<li> client side should allow withAuth</li>
+<li> server and client side 303 support on alternate uri (or content-location)</li>
+</ul>
 </div>

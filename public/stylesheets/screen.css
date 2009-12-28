@@ -175,9 +175,9 @@ a{text-decoration:none;}
 					#contentHome #twitterBox ul li p span {font-weight:normal;}
 
 	/*documentacao*/
-    a#documentacaoBtn{background-image:url(../images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move; text-align:center;}
-    a#documentacaoBtn span{display:block; position:relative; width:auto; height:auto; text-transform:uppercase; font-weight:bold; color:#FFF; font-size:24px; margin-top:22px;}
-    a#documentacaoBtn:hover span{color:#F00;}
+    a.documentacaoBtn{background-image:url(../images/restfulieSprites-trans.png); background-repeat:no-repeat; background-position:-738px -381px; display:block; position:relative; overflow:hidden; width:326px; height:81px; margin-top:15px; margin-right:45px; float:right; cursor:move; text-align:center;}
+    a.documentacaoBtn span{display:block; position:relative; width:auto; height:auto; text-transform:uppercase; font-weight:bold; color:#FFF; font-size:24px; margin-top:22px;}
+    a.documentacaoBtn:hover span{color:#F00;}
 
 	/*css beneficios*/	
 	#contentBeneficios{ width:918px; margin:0px auto; display:block; height:auto; text-align:left; position:relative;}

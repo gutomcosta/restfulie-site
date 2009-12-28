@@ -61,10 +61,27 @@ order.pay
 	<li> pay (unknown methods) is post</li>
 </ul>
 
+<h3>Media type and content negotiation</h3>
+
+Restfulie entry point requests can make use of conneg by notifying the server which media type is being sent and which ones can be understood.
+
+<b>Restfulie.as</b> will notify the server about the media type sent, setting the <b>content-type</b> header:
+
+<pre>
+Restfulie.at('http://caelum.com.br/orders').as('application/vnd_caelum_order+xml').create(order)
+</pre>
+
+<b>Restfulie.accepts</b> notify the server of which media types are understood by the client using the <b>Accepts</b> header:
+
+<pre>
+Restfulie.at('http://caelum.com.br/orders/2').accepts('application/vnd_caelum_order+xml').get
+</pre>
+
+
 	<h3>Resource format support</h3>
 
-	Restfulie currently supports full xml+atom, partial xml+rel and will soon expand its support to json+links.
-
+	Restfulie currently supports full application/atom+xml, partial xml+rel and json+links.
+	
 
 	<h3>Entry points: POST</h3>
 

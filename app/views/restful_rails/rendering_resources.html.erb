@@ -39,6 +39,51 @@ def show
    end
 end
 	</pre>
+	
+<h3>Content type negotiation</h3>
+
+The chosen media type to render will be selected between the formats available for your resource and your client's <b>Accepts</b> header. By default, <b>application/xml</b>, <b>application/json</b>, <b>text/html</b> and <b>application/xhtml</b> are available by default.
+
+<h3>Other media types</h3>
+
+In order to support other media types, you can invoke your <b>media_types</b> method within your <b>ActiveRecord</b>:
+
+<pre>
+	class Hotel < ActiveRecord::Base
+		acts_as_restfulie
+		media_type "vnd/caelum_hotel+xml", "vnd/caelum_hotel+json" # registering custom media types
+	end
+</pre>
+
+Note that the default media types are always registered for all your <b>ActiveRecord</b> that <b>acts_as_restfulie</b>.
+
+<h3>Rendering collections</h3>
+
+If you render a resource collection, it will use the default media types available.
+
+<h3>Collection as atom feed</h3>
+
+In order to render a collection as an atom feed, you can invoke its <b>to_atom</b> method:
+
+<pre>
+def index
+  @hotels = Hotel.all
+  content = @hotels.to_atom(:title=>'Hotels', :controller => self)
+  render :content_type => 'application/atom+xml', :text => content
+end
+</pre>
+
+If you want to partially generate each entry xml while rendering the atom feed, pass a block to the <b>to_atom</b> method:
+<pre>
+	def index
+    @hotels = Hotel.all
+    content = @hotels.to_atom(:title=>'Hotels', :controller => self) do |item|
+      item.to_xml :controller => self, :only => [:name], :skip_instruct => true
+    end
+    render :content_type => 'application/atom+xml', :text => content
+  end
+</pre>
+
 
 	<h3>etag support</h3>
 

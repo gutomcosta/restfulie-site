@@ -23,4 +23,6 @@ class RestfulRailsController < ApplicationController
   end
   def what_is_new
   end
+  def server_generic_controller
+  end
 end

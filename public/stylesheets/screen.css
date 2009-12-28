@@ -282,11 +282,9 @@ a#signature:hover{color:#C90;}
 		#contentDocumentacao h2{ color:#600;	font-size:42px;	display:block;	text-transform:uppercase; margin-top:40px; margin-left:20px; font-weight:bold;}		
 		#contentDocumentacao h3{ color:#747488;	font-size:18px;	display:block;	text-transform:uppercase; font-weight:normal; margin-left:20px; margin-bottom:40px;}
 		
-		#textoCapitulo{width:auto; margin-right:10px; margin-left:360px; display:block; text-align:justify; margin-bottom:40px;}
+		#textoCapitulo{font-size:12px; font-weight:normal;width:auto; margin-right:10px; margin-left:360px; display:block; text-align:justify; margin-bottom:40px;}
 			#textoCapitulo h2 {font-size:30px; font-weight:bold; margin:0px 0px 10px 0px; padding:0px;}
 			#textoCapitulo h3 {font-size:18px; font-weight:bold; margin:10px 0px 0px 0px; padding:0px; color:#C00;}
-			#textoCapitulo p {font-size:12px; font-weight:normal;}
-			#textoCapitulo {font-size:12px; font-weight:normal;}
 			#textoCapitulo pre {font-size:11px; color:#666; font-family:"Courier New", Courier, monospace; margin-bottom:10px; margin-top:10px;}
 
 

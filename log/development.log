@@ -5242,3 +5242,73 @@ Processing SystemsController#index (for 127.0.0.1 at 2009-12-26 11:30:31) [GET]
 Rendering template within layouts/application
 Rendering systems/index
 Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-28 14:41:46) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 1126ms (View: 1123, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-28 14:43:13) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2009-12-28 14:43:35) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-28 14:43:38) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 124ms (View: 122, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2009-12-28 14:43:41) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-28 14:43:41) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuTop-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-28 14:43:42) [GET]
+
+ActionController::RoutingError (No route matches "/restful_rails/images/subMenuBottom-trans.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-28 14:43:50) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2009-12-28 14:45:32) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 73ms (View: 71, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#short_samples (for 127.0.0.1 at 2009-12-28 14:45:34) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/short_samples
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/short_samples]
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-28 14:45:36) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/server]

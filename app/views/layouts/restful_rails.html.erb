@@ -40,7 +40,7 @@
 		          <h3>configuration and utilization</h3>
 
 		          <div id="subMenuDoc">
-		          	<img id="positionTop" src="images/subMenuTop-trans.png" />
+								<%= image_tag"subMenuTop-trans.png", :id => "positionTop" %>
 		          	<ol type="1">
 									<li><%= link_to "1. Installing", :action => "installing"%></li>
 									<li><%= link_to "2. Short samples", :action => "short_samples"%></li>
@@ -54,7 +54,7 @@
 									<li><%= link_to "7. Roadmap", :action => "roadmap"%></li>
 									<li><%= link_to "8. What's new", :action => "what_is_new"%></li>
 		            </ol>
-								<img id="positionBottom" src="images/subMenuBottom-trans.png" />
+								<%= image_tag"subMenuBottom-trans.png", :id => "positionBottom" %>
 		          </div><!-- submenu-->
 
 		          <%= yield %>

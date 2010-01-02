@@ -7,4 +7,6 @@ class SystemsController < ApplicationController
   end
   def rest
   end
+  def restfulie_features
+  end
 end

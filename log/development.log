@@ -5312,3 +5312,473 @@ Processing RestfulRailsController#server (for 127.0.0.1 at 2009-12-28 14:45:36) 
 Rendering template within layouts/restful_rails
 Rendering restful_rails/server
 Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2010-01-02 18:36:00) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 95ms (View: 93, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-02 18:36:05) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#support (for 127.0.0.1 at 2010-01-02 18:36:11) [GET]
+Rendering template within layouts/application
+Rendering systems/support
+Completed in 28ms (View: 27, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-02 18:36:13) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#benefits (for 127.0.0.1 at 2010-01-02 18:36:14) [GET]
+Rendering template within layouts/application
+Rendering systems/benefits
+Completed in 30ms (View: 29, DB: 0) | 200 OK [http://localhost/talking_about_restfulie]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-02 18:36:15) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-02 18:40:17) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-02 18:40:42) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 62ms (View: 61, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-02 18:40:55) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:40:59) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:41:13) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-02 18:41:16) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 41ms (View: 40, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:41:45) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:41:46) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:46:34) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:50:29) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:50:50) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:51:47) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:52:05) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:52:23) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:52:29) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:52:44) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:53:09) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 55ms (View: 54, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:53:31) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:53:45) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:01) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:11) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:18) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:24) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:27) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 57ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:30) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:36) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:54:45) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:55:00) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:55:26) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:56:00) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:57:55) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:58:39) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 18:58:57) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:00:33) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:01:37) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:02:56) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:03:10) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:03:26) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:04:02) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:04:10) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:04:14) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:04:28) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:04:43) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:04:50) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:04:54) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:05:35) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:05:42) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:06:22) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:06:40) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:06:49) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:06:57) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:10:32) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:10:54) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:11:00) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:12:04) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:12:28) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:13:06) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:13:11) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 56ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:13:16) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:13:23) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:13:29) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:13:47) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:13:55) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:14:04) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:14:22) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:14:31) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:15:09) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:15:20) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2010-01-02 19:16:17) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:20:38) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-02 19:22:31) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-02 19:22:31) [GET]
+
+ActionController::RoutingError (No route matches "/hotels/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

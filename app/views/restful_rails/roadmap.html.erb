@@ -1,34 +1,37 @@
 <div id="textoCapitulo">
-	<h3> Already in the trunk</h3>
-<ul>
-</ul>
+	<h3>Already in the trunk</h3>
+	<ul>
+		<li>atom entries get a default destroy action if 'self' link exists</li>
+	</ul>
 
 	<h3> Next release</h3>
-<ul>
-</ul>
+	<ul>
+	</ul>
 
 	<h3> Later</h3>
-<ul>
-	<li> cucumber</li>
-	<li>videocast</li>
-	<li>doc: cache example</li>
-	<li>docs code example should be cute</li>
-	<li>every feature should have a link to the doc and short description</li>
-	<li>use ratom</li>
-	<li>  # TODO break media type registering for DECODING and ENCODING appart, so we can have two files</li>
-	<li>FEATURES PAGE with link to docs, so language parts have standard docs</li>
-	<li>media_type.rb should check entry sizes==1</li>
-	<li>from_xml should not be from rails...</li>
-	<li> migrate java documentation page</li>
-	<li> cucumber should start server on its own</li>
-	<li>Restfulie.at should have an alias Resource.at for better dsling</li>
-	<li>http://www.amundsen.com/blog/archives/1022</li>
-	<li> support link to external resources:</li>
-	<pre>class Album
-	  has_many :songs
-	  composite_resource :songs
-	end</pre>
-	will serialize all songs with it using its URI
+	<ul>
+		<li>refactor media type support in 2 parts: encoding, decoding</li>
+		<li>cucumber</li>
+		<li>videocast</li>
+		<li>doc: cache example</li>
+		<li>docs code example should be cute</li>
+		<li>every feature should have a link to the doc and short description</li>
+		<li>use ratom</li>
+		<li>  # TODO break media type registering for DECODING and ENCODING appart, so we can have two files</li>
+		<li>FEATURES PAGE with link to docs, so language parts have standard docs</li>
+		<li>media_type.rb should check entry sizes==1</li>
+		<li>from_xml should not be from rails...</li>
+		<li> migrate java documentation page</li>
+		<li> cucumber should start server on its own</li>
+		<li>Restfulie.at should have an alias Resource.at for better dsling</li>
+		<li>http://www.amundsen.com/blog/archives/1022</li>
+		<li>sample application should be rewritten from scratch to match Jim's book with newer API</li>
+		<li> support link to external resources:</li>
+		<pre>class Album
+		  has_many :songs
+		  composite_resource :songs
+		end</pre>
+		<li>will serialize all songs with it using its URI</li>
 	<pre>class Album
 	  has_many :songs
 	  composite_resource :songs, :uri => :uri
@@ -60,42 +63,43 @@
 	  status :approval
 	  status :processing
 	end</pre>
-<li> twitter and other examples</li>
-<li> support a Logger</li>
-<li> rails 3 easier support (no controller argument!)</li>
-<li> BUG: atom last_updated date should be in format 2009-07-01T12:05:00Z</li>
-<li> 406 should send a xhtml representation with extra options</li>
-<li> support Link header</li>
-<li> support PATCH verb</li>
-<li> support searchs</li>
-<li> integration tests automatic</li>
-<li> conditional POST and PUT</li>
-<li>  Use If-Match and an ETag for conditional post and put</li>
-<li> allow if with a proc while defining a transition</li>
-<li> Use If-Unmodified-Since on a timestamp to </li>
-<li> client side should allow withAuth, withTimeStamp</li>
-<li> client example on how to use restfulie without rails and activerecord</li>
-<li> relations instead of transitions</li>
-<li> support PUT create and update</li>
-<li> support compressing</li>
-<li> support Order.remote_retrieve order  # invokes your retrieve end point </li>
-<li> support EntryPoints.create Order do |order| '' end</li>
-<li> support aasm and change parameter order for transition: (i.e. last one is HASH, first is name, second (if existing) is target state)</li>
-<li> lucas restfulie-vraptor support last-modified and etag</li>
-<li> lucas vraptor big upload check, missing contentlength check</li>
-<li> controller filtering based on status</li>
-<li> rails 411 check</li>
-<li> rel prepend suffix as http://iansrobinson.com/resources/link-relations/preceding</li>
-<li> automatically generate uri for this rel with its transition description</li>
-<li> support 302 and 303</li>
-<li> english tutorial and screencast</li>
-<li> allows pure String/byte array client side post and server side retrieval</li>
-<li> controller method should check if its an restfulie resource</li>
-<li> pure href definition of link</li>
-<li> allow servers to define a state method instead of internal variable</li>
-<li> when receiving a 201 + content, it should believe the content</li>
-<li> when receiving a 201 without any content, it should allow to redirect or not</li>
-<li> client side should allow withAuth</li>
-<li> server and client side 303 support on alternate uri (or content-location)</li>
-</ul>
+	<li> twitter and other examples</li>
+	<li> support a Logger</li>
+	<li> rails 3 easier support (no controller argument!)</li>
+	<li> BUG: atom last_updated date should be in format 2009-07-01T12:05:00Z</li>
+	<li> 406 should send a xhtml representation with extra options</li>
+	<li> support Link header</li>
+	<li> support PATCH verb</li>
+	<li> support searchs</li>
+	<li> support DESTROY by default</li>
+	<li> integration tests automatic</li>
+	<li> conditional POST and PUT</li>
+	<li>  Use If-Match and an ETag for conditional post and put</li>
+	<li> allow if with a proc while defining a transition</li>
+	<li> Use If-Unmodified-Since on a timestamp to </li>
+	<li> client side should allow withAuth, withTimeStamp</li>
+	<li> client example on how to use restfulie without rails and activerecord</li>
+	<li> relations instead of transitions</li>
+	<li> support PUT create and update</li>
+	<li> support compressing</li>
+	<li> support Order.remote_retrieve order  # invokes your retrieve end point </li>
+	<li> support EntryPoints.create Order do |order| '' end</li>
+	<li> support aasm and change parameter order for transition: (i.e. last one is HASH, first is name, second (if existing) is target state)</li>
+	<li> lucas restfulie-vraptor support last-modified and etag</li>
+	<li> lucas vraptor big upload check, missing contentlength check</li>
+	<li> controller filtering based on status</li>
+	<li> rails 411 check</li>
+	<li> rel prepend suffix as http://iansrobinson.com/resources/link-relations/preceding</li>
+	<li> automatically generate uri for this rel with its transition description</li>
+	<li> support 302 and 303</li>
+	<li> english tutorial and screencast</li>
+	<li> allows pure String/byte array client side post and server side retrieval</li>
+	<li> controller method should check if its an restfulie resource</li>
+	<li> pure href definition of link</li>
+	<li> allow servers to define a state method instead of internal variable</li>
+	<li> when receiving a 201 + content, it should believe the content</li>
+	<li> when receiving a 201 without any content, it should allow to redirect or not</li>
+	<li> client side should allow withAuth</li>
+	<li> server and client side 303 support on alternate uri (or content-location)</li>
+	</ul>
 </div>

@@ -2,7 +2,7 @@
 <h3>Typical hypermedia aware resource representation</h3>
 
 <p>
-Following the definition of a RESTful application supporting resources with hypermedia content, a typical resource representing an order to create courses would be:
+	A Restful application should support hypermedia content, and following this constraint, a typical resource representing an order to take part in some trainings could be:
 </p>
 
 <pre>
@@ -19,13 +19,13 @@ Following the definition of a RESTful application supporting resources with hype
 '%>
 </pre>
 
-<h3>Restfulie: client-side</h3>
+<h3>Client side</h3>
 
 <p>
-	If you use Restfulie to access such a resource, all its interactions will be driven by its hypermedia content:<br/><br/>
+	If you use Restfulie to access such a resource, there will be one entry point and all it's interactions will be driven by hypermedia links:<br/><br/>
 	
 <pre>
-# retrieves the resource through GET
+# retrieves the resource through GET: the entry point
 order = Order.from_web resource_uri
 
 puts "Order price is #{order.price}"
@@ -38,7 +38,7 @@ order.cancel
 </pre>
 </p>
 
-<h3>Restfulie: server-side</h3>
+<h3>Server side</h3>
 
 <p>This is a simple example how to make your state changes available to your resource consumers:</p>
 
@@ -79,10 +79,9 @@ class AddStatusToOrder < ActiveRecord::Migration
 end
 </pre>
 
-<p>Or simply define a status reader and writer on your own.
-</p>
+<p>Or simply define a status reader and writer on your own.</p>
 
-<h3>Restfulie server-side: state machine</h3>
+<h3>Server side: state machine</h3>
 
 <p>For those willing to implement a more complex or advanced state machine, you can use the dsl-like api:<br/><br/>
 

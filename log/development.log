@@ -6664,3 +6664,27 @@ Processing RestfulRailsController#client_atom (for 127.0.0.1 at 2010-01-04 14:34
 Rendering template within layouts/restful_rails
 Rendering restful_rails/client_atom
 Completed in 66ms (View: 64, DB: 0) | 200 OK [http://localhost/restful_rails/client_atom]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2010-01-04 14:55:42) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:56:14) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 22ms (View: 21, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#help_and_examples (for 127.0.0.1 at 2010-01-04 14:56:44) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/help_and_examples
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails/help_and_examples]
+
+
+Processing RestfulRailsController#license (for 127.0.0.1 at 2010-01-04 14:56:49) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/license
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/license]

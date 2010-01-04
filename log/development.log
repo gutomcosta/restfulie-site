@@ -6688,3 +6688,85 @@ Processing RestfulRailsController#license (for 127.0.0.1 at 2010-01-04 14:56:49)
 Rendering template within layouts/restful_rails
 Rendering restful_rails/license
 Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/license]
+
+
+Processing RestfulRailsController#license (for 127.0.0.1 at 2010-01-04 15:08:13) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/license
+
+ActionView::TemplateError (undefined method `csharp_path' for #<ActionView::Base:0x25f1ae8>) on line #32 of app/views/layouts/restful_rails.html.erb:
+29:         	<li><a href="<%=url_for :features%>"><span>features</span></a></li>
+30:         	<li><a href="<%=url_for :rails%>"><span>rails</span></a></li>
+31:         	<li><a href="http://github.com/caelum/restfulie-java"><span>java</span></a></li>
+32:         	<li><a href="<%=url_for :csharp%>"><span>c#</span></a></li>
+33:         	<li><a href="<%= url_for :support%>"><span>support</span></a></li>
+34:         	<li><a href="<%= url_for :benefits%>"><span>testimonials</span></a></li>
+35:         </ul><!-- menuElements-->
+
+    app/views/layouts/restful_rails.html.erb:32
+
+Rendered rescues/_trace (35.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RestfulRailsController#license (for 127.0.0.1 at 2010-01-04 15:08:25) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/license
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://localhost/restful_rails/license]
+
+
+Processing RestfulCsharpController#installing (for 127.0.0.1 at 2010-01-04 15:08:28) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/installing
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/restful_csharp]
+
+
+Processing RestfulCsharpController#short_samples (for 127.0.0.1 at 2010-01-04 15:08:32) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/short_samples
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_csharp/short_samples]
+
+
+Processing RestfulCsharpController#client (for 127.0.0.1 at 2010-01-04 15:08:34) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/client
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/restful_csharp/client]
+
+
+Processing RestfulCsharpController#roadmap (for 127.0.0.1 at 2010-01-04 15:08:36) [GET]
+
+ActionView::MissingTemplate (Missing template restful_csharp/roadmap.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RestfulCsharpController#client (for 127.0.0.1 at 2010-01-04 15:08:49) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/client
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_csharp/client]
+
+
+Processing RestfulCsharpController#client (for 127.0.0.1 at 2010-01-04 15:09:01) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/client
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_csharp/client]
+
+
+Processing RestfulCsharpController#what_is_new (for 127.0.0.1 at 2010-01-04 15:09:03) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/what_is_new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_csharp/what_is_new]
+
+
+Processing RestfulCsharpController#license (for 127.0.0.1 at 2010-01-04 15:09:04) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/license
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/restful_csharp/license]
+
+
+Processing RestfulCsharpController#what_is_new (for 127.0.0.1 at 2010-01-04 15:09:06) [GET]
+Rendering template within layouts/restful_csharp
+Rendering restful_csharp/what_is_new
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/restful_csharp/what_is_new]

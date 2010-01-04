@@ -6,6 +6,7 @@ ActionController::Routing::Routes.draw do |map|
   map.rest '/what_is_rest_and_hateoas', :controller => :systems, :action => :rest
   map.java '/restful_java', :controller => :restful_java, :action => :installing
   map.rails '/restful_rails', :controller => :restful_rails, :action => :installing
+  map.csharp '/restful_csharp', :controller => :restful_csharp, :action => :installing
   map.features '/restfulie_features', :controller => :systems, :action => :restfulie_features
   
   # The priority is based upon order of creation: first created -> highest priority.

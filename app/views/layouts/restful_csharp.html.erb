@@ -35,8 +35,28 @@
         </ul><!-- menuElements-->
     </div><!-- menuWrap-->
     
-	<%= yield %>
-    
+	
+    <div id="contentWrap">
+		  	<div id="contentDocumentacao">
+		      	<h2><span>documentation</span></h2>
+		          <h3>configuration and utilization</h3>
+
+		          <div id="subMenuDoc">
+								<%= image_tag"subMenuTop-trans.png", :id => "positionTop" %>
+		          	<ol type="1">
+									<li><%= link_to "1. Installing", :action => "installing"%></li>
+									<li><%= link_to "2. Short samples", :action => "short_samples"%></li>
+									<li><%= link_to "3. Client", :action => "client"%></li>
+									<li><%= link_to "4. What's new", :action => "what_is_new"%></li>
+									<li><%= link_to "5. License", :action => "license"%></li>
+		            </ol>
+								<%= image_tag"subMenuBottom-trans.png", :id => "positionBottom" %>
+		          </div><!-- submenu-->
+
+		          <%= yield %>
+
+		      </div><!-- content cnt -->
+		  </div><!-- content wrap-->
 
 
     <div id="footerWrap">
@@ -50,11 +70,9 @@
                     <li>|</li>
                     <li><a href="<%=url_for :rest%>">rest/hateoas</a></li>
                     <li>|</li>
-                    <li><a href="<%=url_for :action => :restfulie_features%>">features</a></li>
-                    <li>|</li>
                     <li><a href="<%=url_for :rails%>">rails</a></li>
                     <li>|</li>
-                    <li><a href="http://github.com/caelum/restfulie-java">java</a></li>
+                    <li><a href="<%=url_for :java%>">java</a></li>
                     <li>|</li>
                     <li><a href="<%=url_for :support%>">support</a></li>
                 </ul>

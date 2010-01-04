@@ -10,23 +10,23 @@ class CitiesController < ApplicationController
 end
 </pre>
 
-<h3>Automatic 404 support</h3>
+<h3><a name="404">Automatic 404 support</a></h3>
 
 For all single model related requests, a <b>404</b> response will be returned if the resource is not found.
 
-<h3>Inherited method: show</h3>
+<h3><a name="show">Inherited method: show</a></h3>
 
 The default <b>show</b> method will search for the resource and, if not found, return <b>404</b>.
 
 If the resource is found, content negotiation takes place in order to render it according to the client preferences.
 
-<h3>Inherited method: delete</h3>
+<h3><a name="delete">Inherited method: delete</a></h3>
 
 The default <b>delete</b> method will search for the resource and, if not found, return <b>404</b>.
 
 If the resource is found, it will be deleted.
 
-<h3>Inherited method: create</h3>
+<h3><a name="create">Inherited method: create</a></h3>
 
 The default <b>create</b> method will instantiate a model based on the request body string.
 

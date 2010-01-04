@@ -1,0 +1,34 @@
+<div id="textoCapitulo">
+<h3><a name="feed">Collection as atom feed</a></h3>
+
+In order to render a collection as an atom feed, you can invoke its <b>to_atom</b> method:
+
+<pre>def index
+  @hotels = Hotel.all
+  content = @hotels.to_atom(:title=>'Hotels', :controller => self)
+  render :content_type => 'application/atom+xml', :text => content
+end
+</pre>
+
+If you want to partially generate each entry xml while rendering the atom feed, pass a block to the <b>to_atom</b> method:
+<pre>def index
+  @hotels = Hotel.all
+  content = @hotels.to_atom(:title=>'Hotels', :controller => self) do |item|
+    item.to_xml :controller => self, :only => [:name], :skip_instruct => true
+  end
+  render :content_type => 'application/atom+xml', :text => content
+end
+</pre>
+
+<h3><a name="multitype">Collection of different types as atom</a></h3>
+
+An atom feed can contain objects from two different types that will be rendered as different content types:
+
+<pre>def index
+  @hotels_and_houses = Hotel.all + Houses.all
+  content = @hotels_and_houses.to_atom(:title=>'Hotels', :controller => self)
+  render :content_type => 'application/atom+xml', :text => content
+end
+</pre>
+
+</div>

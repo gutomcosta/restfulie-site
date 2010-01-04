@@ -26,11 +26,11 @@
     	<ul id="menuElements">
         	<li><a href="/"><span>home</span></a></li>
         	<li><a href="<%=url_for :rest%>"><span>rest/hateoas</span></a></li>
-        	<li><a href="<%=url_for :action => :restfulie_features%>"><span>features</span></a></li>
-        	<li><a href="<%= url_for :benefits%>"><span>testimonials</span></a></li>
+        	<li><a href="<%=url_for :features%>"><span>features</span></a></li>
         	<li><a href="<%=url_for :rails%>"><span>rails</span></a></li>
-        	<li><a href="<%=url_for :java%>"><span>java</span></a></li>
+        	<li><a href="http://github.com/caelum/restfulie-java"><span>java</span></a></li>
         	<li><a href="<%= url_for :support%>"><span>support</span></a></li>
+        	<li><a href="<%= url_for :benefits%>"><span>testimonials</span></a></li>
         </ul><!-- menuElements-->
     </div><!-- menuWrap-->
     
@@ -49,7 +49,9 @@
 									<li><%= link_to "3.1. Rendering resources", :action => "rendering_resources"%></li>
 									<li><%= link_to "3.2. Server state machine", :action => "server_state_machine"%></li>
 									<li><%= link_to "3.3. Server generic controller", :action => "server_generic_controller"%></li>
+									<li><%= link_to "3.4. Server atom support", :action => "server_atom"%></li>
 									<li><%= link_to "4. Client", :action => "client"%></li>
+									<li><%= link_to "4.1. Client atom support", :action => "client_atom"%></li>
 									<li><%= link_to "5. Help and examples", :action => "help_and_examples"%></li>
 									<li><%= link_to "5.1. Live examples", :action => "live_examples"%></li>
 									<li><%= link_to "6. License", :action => "license"%></li>

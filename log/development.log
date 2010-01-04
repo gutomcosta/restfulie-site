@@ -5782,3 +5782,885 @@ ActionController::RoutingError (No route matches "/hotels/1" with {:method=>:get
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2010-01-04 13:46:43) [GET]
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 26ms (View: 25, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:46:44) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:47:02) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+
+ActionView::TemplateError (undefined method `uri_for' for #<ActionView::Base:0x252ec8c>) on line #56 of app/views/systems/restfulie_features.html.erb:
+53: <tr class="feature"><td>hypermedia driven OPTIONS</td><td>   </td><td>   </td><td>   </td></tr>
+54: <tr class="feature"><td>relation to external resources as links</td><td>   </td><td>   </td><td>   </td></tr>
+55: <tr class="feature"><td>xhtml</td><td>   </td><td>   </td><td>   </td></tr>
+56: <tr class="feature"><td>atom feed</td><td><a href="<%= uri_for :controller=>:rails, :action =>:server_atom %>">yes</a></td><td>   </td><td>   </td></tr>
+57: <tr class="feature"><td>single atom entry</td><td>   </td><td>   </td><td>   </td></tr>
+58: <tr class="feature"><td><b>xml</b></td><td>yes</td><td>yes</td><td>   </td></tr>
+59: <tr class="feature"><td>json</td><td>yes</td><td>yes</td><td>   </td></tr>
+
+    app/views/systems/restfulie_features.html.erb:56
+
+Rendered rescues/_trace (35.9ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:47:08) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-01-04 13:47:11) [GET]
+
+ActionController::RoutingError (No route matches "/rails/server_atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 13:47:16) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:47:32) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#server_atom (for 127.0.0.1 at 2010-01-04 13:47:34) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_atom
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server_atom]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:49:11) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:51:16) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#server_atom (for 127.0.0.1 at 2010-01-04 13:51:18) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_atom
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/restful_rails/server_atom]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 13:51:26) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#server_generic_controller (for 127.0.0.1 at 2010-01-04 13:51:33) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_generic_controller
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/restful_rails/server_generic_controller]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:51:52) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#generic_controller (for 127.0.0.1 at 2010-01-04 13:52:00) [GET]
+
+ActionController::UnknownAction (No action responded to generic_controller. Actions: client, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:52:54) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#server_generic_controller (for 127.0.0.1 at 2010-01-04 13:52:56) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_generic_controller
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server_generic_controller]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:53:34) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+ERROR: compiling _run_erb_app47views47systems47restfulie_features46html46erb RAISED compile error
+/Users/guilherme/Documents/ruby/restfulie/site/app/views/systems/restfulie_features.html.erb:243: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...ic_controller, :anchor => :404 ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_erb_app47views47systems47restfulie_features46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"contentWrap\">\n"
+@output_buffer.concat "          <div id=\"contentBeneficios\">                                                                                                                                          \n"
+@output_buffer.concat "\t\t<a rel=\"nofollow\" name=\"restfulie_features\"></a>\n"
+@output_buffer.concat "        \n"
+@output_buffer.concat "        <div class=\"depoimentoClientes\">\n"
+@output_buffer.concat "        \t<p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h2>Client</h2>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<style>\n"
+@output_buffer.concat ".feature {\n"
+@output_buffer.concat "\tborder-bottom: 1px solid black;\n"
+@output_buffer.concat "\tpadding: 10px 20px 20px 10px;\n"
+@output_buffer.concat "}\t\n"
+@output_buffer.concat ".feature_header {\n"
+@output_buffer.concat "\tpadding: 10px 0px 10px 10px;\n"
+@output_buffer.concat "\twidth: 70px;\n"
+@output_buffer.concat "}\n"
+@output_buffer.concat "</style>\n"
+@output_buffer.concat "<table style=\"border: 1px 0px 0px 0px solid black; border-collapse: collapse\">\n"
+@output_buffer.concat "<tr class=\"feature\"><th style=\"width: 300px; \"><b>feature</b></th><th class=\"feature_header\"><b>ruby</b></th><th class=\"feature_header\"><b>java</b></th><th class=\"feature_header\"><b>C#</b></th></tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td><b>get entry point</b></td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>post entry point</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>local cache</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>304</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>xhtml</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>atom feed</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>atom entry from feed</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>single atom entry</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td><b>xml</b></td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>json</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>custom</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>201 redirect</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td><b>access web response and headers</b></td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td><b>follow links</b></td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>error handling</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "</table>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<p>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h2>Server</h2>\n"
+@output_buffer.concat "<table style=\"border: 1px 0px 0px 0px solid black; border-collapse: collapse\">\n"
+@output_buffer.concat "\t<tr class=\"feature\"><th style=\"width: 300px; \"><b>feature</b></th><th class=\"feature_header\"><b>ruby</b></th><th class=\"feature_header\"><b>java</b></th><th class=\"feature_header\"><b>C#</b></th></tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td><b>transition links</b></td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td><b>connected resource links</b></td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>etag</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>last modified</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>406</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>hypermedia driven 406</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>OPTIONS support</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>hypermedia driven OPTIONS</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>relation to external resources as links</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>xhtml</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>atom feed</td>\n"
+@output_buffer.concat "\t<td>"; @output_buffer.concat(( link_to "yes", :controller=>:restful_rails, :action =>:server_atom, :anchor => :feed ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>single atom entry</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td><b>xml</b></td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>json</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>custom</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>201 redirect</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>PATCH</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>HEAD</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>content negotiation</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>custom representation serializers</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>automatic 404 on resource not found</td>\n"
+@output_buffer.concat "\t<td>"; @output_buffer.concat(( link_to "yes", :controller=>:restful_rails, :action =>:server_generic_controller, :anchor => :404 ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>automatic domain model loading</td>\n"
+@output_buffer.concat "\t<td>"; @output_buffer.concat(( link_to "yes", :controller=>:restful_rails, :action =>:server_generic_controller, :anchor => :show ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t<td>yes</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>default create behaviour</td>\n"
+@output_buffer.concat "\t<td>"; @output_buffer.concat(( link_to "yes", :controller=>:restful_rails, :action =>:server_generic_controller, :anchor => :create ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>default show behaviour</td>\n"
+@output_buffer.concat "\t<td>"; @output_buffer.concat(( link_to "yes", :controller=>:restful_rails, :action =>:server_generic_controller, :anchor => :show ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>default delete behaviour</td>\n"
+@output_buffer.concat "\t<td>"; @output_buffer.concat(( link_to "yes", :controller=>:restful_rails, :action =>:server_generic_controller, :anchor => :delete ).to_s); @output_buffer.concat "</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>default list behaviour</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>default search behaviour</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>default update behaviour</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "<tr class=\"feature\">\n"
+@output_buffer.concat "\t<td>default patch behaviour</td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "\t<td>   </td>\n"
+@output_buffer.concat "</tr>\n"
+@output_buffer.concat "</table>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "</p>\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "</div>\n"
+@output_buffer.concat "</div>"; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/guilherme/Documents/ruby/restfulie/site/app/views/systems/restfulie_features.html.erb:304:in `compile!'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_view/template.rb:199:in `render_template'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_view/base.rb:343:in `_render_with_layout'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:1326:in `default_render'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `send'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/reloader.rb:34:in `run'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:108:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Users/guilherme/Documents/ruby/restfulie/site/vendor/rails/railties/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/guilherme/Documents/ruby/restfulie/site/app/views/systems/restfulie_features.html.erb:243: syntax error, unexpected tINTEGER, expecting tSTRING_CONTENT or tSTRING_DBEG or tSTRING_DVAR or tSTRING_END
+...ic_controller, :anchor => :404 ).to_s); @output_buffer.conca...
+                              ^) on line #243 of app/views/systems/restfulie_features.html.erb:
+240: </tr>
+241: <tr class="feature">
+242: 	<td>automatic 404 on resource not found</td>
+243: 	<td><%= link_to "yes", :controller=>:restful_rails, :action =>:server_generic_controller, :anchor => :404 %></td>
+244: 	<td>yes</td>
+245: 	<td>   </td>
+246: </tr>
+
+    app/views/systems/restfulie_features.html.erb:304:in `compile!'
+
+Rendered rescues/_trace (89.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:53:46) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#server_generic_controller (for 127.0.0.1 at 2010-01-04 13:53:48) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_generic_controller
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails/server_generic_controller]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:53:58) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#server_generic_controller (for 127.0.0.1 at 2010-01-04 13:54:00) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_generic_controller
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails/server_generic_controller]
+
+
+Processing RestfulRailsController#server_state_machine (for 127.0.0.1 at 2010-01-04 13:54:16) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_state_machine
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/restful_rails/server_state_machine]
+
+
+Processing RestfulRailsController#rendering_resources (for 127.0.0.1 at 2010-01-04 13:54:18) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/rendering_resources
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/restful_rails/rendering_resources]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:55:06) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#server (for 127.0.0.1 at 2010-01-04 13:55:08) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server
+Completed in 67ms (View: 66, DB: 0) | 200 OK [http://localhost/restful_rails/server]
+
+
+Processing RestfulRailsController#rendering_resources (for 127.0.0.1 at 2010-01-04 13:56:00) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/rendering_resources
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/restful_rails/rendering_resources]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 13:56:02) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#rendering_resources (for 127.0.0.1 at 2010-01-04 13:56:04) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/rendering_resources
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/restful_rails/rendering_resources]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:02:57) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#server_generic_controller (for 127.0.0.1 at 2010-01-04 14:03:00) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_generic_controller
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails/server_generic_controller]
+
+
+Processing RestfulRailsController#server_atom (for 127.0.0.1 at 2010-01-04 14:03:03) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_atom
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server_atom]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:05:58) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 18ms (View: 16, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#rendering_resources (for 127.0.0.1 at 2010-01-04 14:06:00) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/rendering_resources
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails/rendering_resources]
+
+
+Processing RestfulRailsController#server_atom (for 127.0.0.1 at 2010-01-04 14:06:06) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_atom
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/restful_rails/server_atom]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:07:32) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:11:31) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:12:43) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:24:18) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2010-01-04 14:24:20) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2010-01-04 14:24:24) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2010-01-04 14:24:41) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2010-01-04 14:24:52) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2010-01-04 14:25:02) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2010-01-04 14:25:16) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:26:04) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:26:16) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, client_atom, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:26:23) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, client_atom, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#client (for 127.0.0.1 at 2010-01-04 14:26:25) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client
+Completed in 58ms (View: 6, DB: 0) | 200 OK [http://localhost/restful_rails/client]
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-04 14:26:26) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:26:27) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#client_atom (for 127.0.0.1 at 2010-01-04 14:26:33) [GET]
+
+ActionView::MissingTemplate (Missing template restful_rails/client_atom.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RestfulRailsController#client_atom (for 127.0.0.1 at 2010-01-04 14:31:33) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client_atom
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails/client_atom]
+
+
+Processing RestfulRailsController#client_atom (for 127.0.0.1 at 2010-01-04 14:32:11) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client_atom
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails/client_atom]
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:32:13) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, client_atom, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:32:18) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, client_atom, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:32:19) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, client_atom, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing SystemsController#rest (for 127.0.0.1 at 2010-01-04 14:32:20) [GET]
+Rendering template within layouts/application
+Rendering systems/rest
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/what_is_rest_and_hateoas]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:32:21) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/systems/restfulie_features]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:32:22) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:32:23) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, client_atom, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:32:47) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:32:48) [GET]
+
+ActionController::UnknownAction (No action responded to restfulie_features. Actions: client, client_atom, help_and_examples, installing, license, live_examples, rendering_resources, roadmap, server, server_atom, server_generic_controller, server_state_machine, short_samples, and what_is_new):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:33:58) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 31ms (View: 30, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2010-01-04 14:34:00) [GET]
+  Parameters: {"actions"=>:restfulie_features}
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://localhost/restfulie_features]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:34:01) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing SystemsController#index (for 127.0.0.1 at 2010-01-04 14:34:02) [GET]
+  Parameters: {"actions"=>:restfulie_features}
+Rendering template within layouts/application
+Rendering systems/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/restfulie_features]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:34:15) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 40ms (View: 38, DB: 0) | 200 OK [http://localhost/restfulie_features]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:34:17) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing SystemsController#restfulie_features (for 127.0.0.1 at 2010-01-04 14:34:18) [GET]
+Rendering template within layouts/application
+Rendering systems/restfulie_features
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/restfulie_features]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:34:19) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#installing (for 127.0.0.1 at 2010-01-04 14:34:50) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/installing
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/restful_rails]
+
+
+Processing RestfulRailsController#server_atom (for 127.0.0.1 at 2010-01-04 14:34:51) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/server_atom
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/restful_rails/server_atom]
+
+
+Processing RestfulRailsController#client_atom (for 127.0.0.1 at 2010-01-04 14:34:54) [GET]
+Rendering template within layouts/restful_rails
+Rendering restful_rails/client_atom
+Completed in 66ms (View: 64, DB: 0) | 200 OK [http://localhost/restful_rails/client_atom]

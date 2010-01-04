@@ -1,0 +1,42 @@
+<div id="textoCapitulo">
+	<h2>Atom feeds</h2>
+	<h3><a name="feed">Retrieving an atom feed</a></h3>
+	
+You can retrieve an atom feed by accessing it as an entry point:
+
+<pre>
+hotels = Restfulie.at(HOTELS_ENTRY_POINT).get
+hotel = hotels[1]
+puts "name: #{hotel.name}"
+</pre>
+
+If the server accepts and prefers other media type than <strong>application/atom+xml</strong>, it is better to let it
+know your desire to retrieve an atom feed:
+
+<pre>
+hotels = Restfulie.accepts('application/atom+xml').at(HOTELS_ENTRY_POINT).get
+hotel = hotels[1]
+puts "name: #{hotel.name}"
+</pre>
+
+<h3><a name="feed">Working with an atom entry</a></h3>
+
+Now that you have retrieved a feed, you can use its entries as a typical Restfulie retrieved resource:
+
+<pre>
+puts "#{hotel.city.name}"
+hotel.related_tours.each do |tour|
+	puts "Found tour '#{tour.name}'"
+end
+</pre>
+
+And you can fully retrieve every item due to its own link in the atom entry description:
+
+<pre>	
+# retrieves the resource through GET
+hotel = hotels[1].self
+puts "name: #{hotel.name}"
+</pre>
+	
+	
+</div>

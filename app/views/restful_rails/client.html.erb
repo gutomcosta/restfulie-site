@@ -4,33 +4,63 @@
 	
 Entry points are commonly defined through a resource retrieval or creation request. Restfulie allows you to use both type of entry points through its API.
 
-<h3>Resource retrieval entry point</h3>
+<h3><a name="get entry point">Resource retrieval entry point</a></h3>
 
 Most systems will create a request retrieval entry point, which can be accessed as:
 
 <pre>
-	city = Restfulie.at('http://localhost:3000/cities/5').get
+city = Restfulie.at('http://localhost:3000/cities/5').get
 </pre>
+
+After that, the xml tree can be accessed and links followed. A typical city hypermedia file would be:
+
+<pre>
+&lt;city>
+	&lt;name>Sao Paulo&lt;/name>
+	&lt;population>
+		&lt;size>18000000&lt;/size>
+		&lt;growth>10&lt;/growth>
+	&lt;/population>
+	&lt;link rel="next_largest" href="http://localhost:3000/cities/18" />
+&lt;/city>
+</pre>
+
+The information can be retrieved through the usual method invocations:
+
+<pre>
+puts city.name
+puts "size #{city.population.size} and growth #{city.population.growth}"
+</pre>
+
+And links can be followed as:
+
+<pre>
+next_one = city.next_largest
+</pre>
+
+Note that the client application knows what the <b>rel</b> attribute <b>next_largest</b> means, but does not know what it's value stands for (Rio de Janeiro).
+
+<h3><a name="response result">Acessing the web response</a></h3>
 
 In this case, you can access the http response through <b>web_response</b>, i.e.:
 
 <pre>
-	city = Restfulie.at('http://localhost:3000/cities/5').get
-	puts "Response code #{city.web_response.code}"
+city = Restfulie.at('http://localhost:3000/cities/5').get
+puts "Response code #{city.web_response.code}"
 </pre>
 
-<h3>Resource creation entry point</h3>
+<h3><a name="create entry point">Resource creation entry point</a></h3>
 
 If your server defines an entry point related to a resource creation, you can use the <b>create</b>	method as:
 
 <pre>
-	resulting_city = Restfulie.at('http://localhost:3000/cities').create(city)
+resulting_city = Restfulie.at('http://localhost:3000/cities').create(city)
 </pre>
 
 Note that <b>resulting_city</b> seems to be the result of following a 201 response to its given Location header.
 	
-	<h2>Domain model binding example</h2>
-	Create your class and invoke the *uses_restfulie* method:
+<h2>Domain model binding example</h2>
+Create your class and invoke the *uses_restfulie* method:
 
 	<pre>class Order < ActiveRecord::Base
 	uses_restfulie
@@ -94,7 +124,7 @@ end
 
 product = Product.remote_create Product.new</pre>
 
-	<h3>Following 301 response code</h3>
+	<h3><a name="301">Following 301 response code</a></h3>
 
 	According to "https specification":http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html , 301 links can be automatically followed when using the <b>GET</b> and <b>HEAD</b> verbs:
 
@@ -137,7 +167,7 @@ product = Product.remote_create Product.new</pre>
 
 	The parameters will be serialized either to xml or json according to which format was used to deserialize the order at first place.
 
-<h3>Executing another GET request</h3>
+<h3><a name="following hyperlinks">Following hyperlinks</a></h3>
 
 	If your method executes another <b>GET</b> request, it will automatically deserialize its result as:
 

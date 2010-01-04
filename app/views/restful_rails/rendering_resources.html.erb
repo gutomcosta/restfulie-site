@@ -40,7 +40,7 @@ def show
 end
 	</pre>
 	
-<h3>Content type negotiation</h3>
+<h3><a name="content type negotiation">Content type negotiation</a></h3>
 
 The chosen media type to render will be selected between the formats available for your resource and your client's <b>Accepts</b> header. By default, <b>application/xml</b>, <b>application/json</b>, <b>text/html</b> and <b>application/xhtml</b> are available by default.
 
@@ -61,31 +61,7 @@ Note that the default media types are always registered for all your <b>ActiveRe
 
 If you render a resource collection, it will use the default media types available.
 
-<h3>Collection as atom feed</h3>
-
-In order to render a collection as an atom feed, you can invoke its <b>to_atom</b> method:
-
-<pre>
-def index
-  @hotels = Hotel.all
-  content = @hotels.to_atom(:title=>'Hotels', :controller => self)
-  render :content_type => 'application/atom+xml', :text => content
-end
-</pre>
-
-If you want to partially generate each entry xml while rendering the atom feed, pass a block to the <b>to_atom</b> method:
-<pre>
-	def index
-    @hotels = Hotel.all
-    content = @hotels.to_atom(:title=>'Hotels', :controller => self) do |item|
-      item.to_xml :controller => self, :only => [:name], :skip_instruct => true
-    end
-    render :content_type => 'application/atom+xml', :text => content
-  end
-</pre>
-
-
-	<h3>etag support</h3>
+	<h3><a name="etag">etag support</a></h3>
 
 	When a client accesses a resource's representation for the first time, <b>Restfulie</b> automatically generates the etag from your resource as <b>etag = resource</b> and returns it to the client.<br/><br/>
 
@@ -111,11 +87,11 @@ puts order.price
 order = order.latest # executes a GET, receives a 304
 puts order.price</pre>
 
-	<h3>last modified</h3>
+	<h3><a name="last-modified">last modified</a></h3>
 
 	If your resource answers to the method *updated_at* (as ActiveRecord already does), its result will be used to set your resource's representation response header "Last modified". Pretty much as with the *etag*, the server will respond with a 304 Not modified if the resource last update matches the new client's request.
 	
-<h3>rendering a resource after its creation</h3>
+<h3><a name="201-created">rendering a resource after its creation</a></h3>
 
 When a resource is created, a response code 201 should be returned with an optional representation of the created resource.
 

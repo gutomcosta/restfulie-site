@@ -2,18 +2,22 @@
 	<h3>Already in the trunk</h3>
 	<ul>
 		<li>atom entries get a default destroy action if 'self' link exists</li>
+		<li>support to is_successful?, informational, redirection, client_error and server_error</li>
+		<li>features list in the webpage</li>
 	</ul>
 
 	<h3> Next release</h3>
 	<ul>
+		<li>doc: support to is_successful?</li>
 		<li>doc: cache example</li>
 		<li>sample application should be rewritten from scratch to match Jim's book with newer API, chapter 5</li>
 		<li>media_type.rb should check entry sizes==1</li>
 		<li>from_xml should not be from rails...</li>
 		<li>migrate java documentation page</li>
-		<li>error handling (404 and so on)</li>
 		<li>Restfulie.at should have an alias Resource.at for better dsling</li>
 		<li>basic local cache</li>
+		<li> example for twitter public timeline as wrest (nice!): http://github.com/kaiwren/wrest/blob/master/examples/twitter_public_timeline.rb</li>
+		<li>implement is_everything_else on GET entry point and executing transitions</li>
 	</ul>
 
 	<h3> Later</h3>
@@ -46,7 +50,6 @@
 	end</pre>
 	will serialize all songs with it using its URI
 <li> video</li>
-<li> example for twitter public timeline as wrest (nice!): http://github.com/kaiwren/wrest/blob/master/examples/twitter_public_timeline.rb</li>
 <li> restfulie webpage: twitter search result for #restfulie</li>
 <li> when defining a transition inside acts_as_restfulie, remove empty hash and array when no options are provided</li>
 <li> remove client dependency from ActiveRecord (based on WREST code)</li>

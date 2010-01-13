@@ -23,7 +23,7 @@
 	<td><b>get entry point</b></td>
 	<td><%= link_to "yes", :controller=>:restful_rails, :action =>:client, :anchor => "get entry point" %></td>
 	<td>yes</td>
-	<td>yes</td>
+	<td><%= link_to "yes", :controller=>:restful_csharp, :action =>:client, :anchor => "get entry point" %></td>
 </tr>
 <tr class="feature">
 	<td>post entry point</td>
@@ -101,13 +101,13 @@
 	<td><b>access web response and headers</b></td>
 	<td><%= link_to "yes", :controller=>:restful_rails, :action =>:client, :anchor => "response result" %></td>
 	<td>   </td>
-	<td>   </td>
+	<td><%= link_to "yes", :controller=>:restful_csharp, :action =>:client, :anchor => "response result" %>   </td>
 </tr>
 <tr class="feature">
 	<td><b>follow links</b></td>
 	<td><%= link_to "yes", :controller=>:restful_rails, :action =>:client, :anchor => "following hyperlinks" %></td>
 	<td>yes</td>
-	<td>yes</td>
+	<td><%= link_to "yes", :controller=>:restful_csharp, :action =>:client, :anchor => "following hyperlinks" %></td>
 </tr>
 <tr class="feature">
 	<td><b>send http body data</b></td>
